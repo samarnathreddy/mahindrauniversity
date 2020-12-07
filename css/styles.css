@@ -1,0 +1,125 @@
+/***************Header styles***************/
+.nav-main {
+  padding: 0;
+}
+.first-nav {
+  height: 34px;
+  background: #1e1e1e;
+  justify-content: flex-end;
+  padding-right: 155px;
+}
+.first-nav-li {
+  padding-bottom: 4px;
+}
+.first-nav-link {
+  opacity: 0.8;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 2.31;
+  color: #ffffff;
+  padding: 0;
+}
+.second-nav {
+  height: 68px;
+  padding-top: 17px;
+  padding-left: 150px;
+}
+.second-nav ul {
+  padding-left: 80px;
+}
+.second-nav-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+}
+.arrow {
+  display: inline-block;
+  padding: 2px;
+  border: solid #d0313f;
+  border-width: 0 0.3px 0.3px 0;
+  margin-left: 10px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.nav-apply-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #ffffff;
+}
+.second-nav-link:hover {
+  color: #000000;
+}
+.first-nav-link:hover,
+.nav-apply-btn:hover {
+  color: #ffffff;
+}
+
+/***************End of Header styles*************/
+
+/***************Start of Banner styles****************/
+.banner-wrapper {
+  padding-top: 80px;
+  padding-left: 75px;
+}
+.mail-info {
+  position: relative;
+}
+.mail-info p {
+  width: 195px;
+  transform: rotate(-90deg);
+  opacity: 0.6;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 2.11;
+  letter-spacing: 1.8px;
+  color: #000000;
+  margin: 0;
+  position: absolute;
+  top: 80px;
+}
+.mail-info img {
+  position: absolute;
+  top: 210px;
+  left: 80px;
+}
+.content {
+  padding-left: 260px;
+  padding-right: 235px;
+}
+.content p {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 1.04px;
+  color: #6c7787;
+}
+.content p:last-child {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.42;
+  color: #6c7787;
+}
+.content p:last-child span {
+  font-weight: 500;
+  color: #000000;
+}
+hr {
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #d03a40;
+  margin-left: 2px;
+  margin-bottom: 25px;
+}
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/***************End of Banner styles*************/
