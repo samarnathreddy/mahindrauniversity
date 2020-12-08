@@ -11,12 +11,20 @@
     <!-- <link href="./css/font-awesome.min.css" rel="stylesheet"> -->  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+
 </head>
 <body>
     <!-- Header section starts -->
     <nav class="navbar navbar-expand-md sticky-top nav-main">     
-        <div class="collapse navbar-collapse flex-column " id="navbar">
+        <div class="collapse navbar-collapse flex-column" id="navbar">
           <ul class="navbar-nav w-100 justify-content-end first-nav">
             <li class="nav-item first-nav-li">
                 <a href="#" class="nav-link first-nav-link">Ordinance</a>
@@ -46,7 +54,7 @@
           <div class="navbar-nav w-100 second-nav">
             <img src="./images/asset-1-dm-1-x.png" alt="Mahindra University logo">
             <ul class="navbar-nav w-100">
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
                     <a class="nav-link second-nav-link" href="#" id="navbarDropdownMenuLink"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      About<i class="arrow down"></i>
@@ -57,29 +65,107 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
                     <a class="nav-link second-nav-link" href="#" id="navbarDropdownMenuLink"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Schools<i class="arrow down"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="overview-list">
+                            <h4>Schools at Mahindra University</h4>
+                            <a class="dropdown-item active" href="#">Ecole centrale school of Engineering<i style="margin-left: 8px;" class="arrow right"></i></a>
+                            <a class="dropdown-item" href="#">School of Management</a>
+                            <a class="dropdown-item" href="#">School of Law</a>
+                            <a class="dropdown-item" href="#">School of Design</a>
+                            <a class="dropdown-item" href="#">School of Media</a>
+                            <a class="dropdown-item" href="#">School of Liberal Arts</a>
+                            <a class="dropdown-item" href="#">School of Applied Sciences</a>
+                        </div>
+                        <vr class="vr"></vr>
+                        <div class="overview-wrapper">
+                            <img src="./images/school.png" alt="school">
+                            <div>
+                                <p>
+                                    MEC signifies the ‘Rise of the New Engineer’ - an exemplary paradigm made possible by a historic collaboration involving the Tech Mahindra of the Mahindra Group, École Central Paris (now CentraleSupélec) and Jawaharlal Nehru Technological University Hyderabad (JNTUH).
+                                </p>
+                                <p>Learn more<i class="arrow right" style="margin-left: 8px;"></i></p>
+                                <div class="overview-tech">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Civil Engineering<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Computer Science Engineering<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Electrical & Electronics<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Engineering<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Mechanical Engineering<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Humanities & Social Sciences<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Mathematics<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Physics<i class="arrow arrow1 right"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
                     <a class="nav-link second-nav-link" href="#" id="navbarDropdownMenuLink"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Academics<i class="arrow down"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="overview-list">
+                            <h4>Overview</h4>
+                            <a class="dropdown-item active" href="#">B.Tech Programs<i style="margin-left: 8px;" class="arrow right"></i></a>
+                            <a class="dropdown-item" href="#">Ph.D. Program</a>
+                            <a class="dropdown-item" href="#">Departments</a>
+                            <a class="dropdown-item" href="#">CoEs</a>
+                            <a class="dropdown-item" href="#">Calendar</a>
+                            <a class="dropdown-item" href="#">Credits</a>
+                            <a class="dropdown-item" href="#">Faculty</a>
+                            <a class="dropdown-item" href="#">Placements</a>
+                            <a class="dropdown-item" href="#">Higher Education</a>
+                            <a class="dropdown-item" href="#">Internship</a>
+                        </div>
+                        <vr class="vr"></vr>
+                        <div class="overview-wrapper">
+                            <img src="./images/academics.png" alt="academics">
+                            <div>
+                                <p>
+                                    MEC is considered to be among the top engineering colleges in Hyderabad and 
+                                    even in India, as it grooms the New Engineers of the future. MEC follows a paradigm
+                                     that transcends the conventional walls between academia-industry and theory-practice
+                                      to usher in fresh ideas and deeper understanding.
+                                <br/><br/>
+                                    MEC rubs shoulders with global standards of excellence, housing laboratories 
+                                    that are equipped to effectuate ground-breaking inventions and innovations under 
+                                    the supervision of the faculty who are highly accomplished and dedicated scholars 
+                                    in their respective fields with industry, research and academic experience.
+                                </p>
+                                <p>Learn more<i class="arrow right" style="margin-left: 8px;"></i></p>                                
+                            </div>
+                            
+                        </div>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
                     <a class="nav-link second-nav-link" href="#" id="navbarDropdownMenuLink"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Admissions<i class="arrow down"></i>
@@ -90,7 +176,7 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
                     <a class="nav-link second-nav-link" href="#" id="navbarDropdownMenuLink"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Research<i class="arrow down"></i>
@@ -101,7 +187,7 @@
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
                     <a class="nav-link second-nav-link" href="#" id="navbarDropdownMenuLink"
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Campus<i class="arrow down"></i>
@@ -141,15 +227,77 @@
             <p>Mahindra university signifies the ‘Rise of the New Engineer’ 
                in the global dynamics of <span>Research & Development</span> and <span>higher learning.</span></p>
         </div>
-        <div id="owl-demo" class="owl-carousel owl-theme">
-            <div class="item"><img src="./images/video.png" alt="video"></div>
-            <div class="item"><img src="./images/video.png" alt="GTA V"></div>
-            <div class="item"><img src="./images/video.png" alt="Mirror Edge"></div>          
+        <div id="owl-demo" class="slider-home owl-carousel owl-theme owl-loaded">
+            <div class="owl-stage-outer">
+                <div class="owl-stage" style="transition: all 0.5s ease 0s;">
+                    <div class="owl-item active"  style="width: 1400px;">
+                        <div class="item">
+                            <a title="video" href="#">
+                                <img src="./images/video.png" alt="video" width="1400" height="644"></a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1400px;">
+                        <div class="item">
+                            <a title="video" href="#">
+                                <img src="./images/video.png" alt="video" width="1400" height="644"></a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1400px;">
+                        <div class="item">
+                            <a title="video" href="#">
+                                <img src="./images/video.png" alt="video" width="1400" height="644"></a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1400px;">
+                        <div class="item">
+                            <a title="video" href="#">
+                                <img src="./images/video.png" alt="video" width="1400" height="644"></a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned">
+                        <div class="item">
+                            <a title="video" href="#">
+                                <img src="./images/video.png" alt="video" width="1400" height="644"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-controls">
+                <div class="owl-nav">
+                    <div class="owl-prev" style="">prev</div>
+                    <div class="owl-next" style="">next</div>
+                </div>
+                <div class="owl-dots" style="text-align: initial;">
+                    <div class="owl-dot active"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                    <div class="owl-dot"><span></span></div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                require([
+                    'jquery',
+                    'owlcarousel'
+                ], function($) {
+                    jQuery(".slider-home").owlCarousel({
+                        items: 1,
+                        autoplay: true,
+                        loop: true,
+                        nav: true,
+                        dots: true,
+                        autoplaySpeed: 500,
+                        navSpeed: 500,
+                        dotsSpeed: 500,
+                        autoplayHoverPause: true,
+                        margin: 1,
+                    });
+                });
+            </script>        
         </div>
     </section>
-    <!-- Banner section ends -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/carousel.js"></script>
+    <!-- Banner section ends -->  
 </body>
 </html>
