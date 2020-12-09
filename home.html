@@ -11,13 +11,18 @@
     <!-- <link href="./css/font-awesome.min.css" rel="stylesheet"> -->  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
 
     <link rel="stylesheet" href="./css/styles.css">
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- <script src="./js/carousel.js"></script> -->
     <script src="./js/owl.carousel.min.js"></script>
 
 </head>
@@ -303,75 +308,161 @@
             </div>
         </div>
         
-        <div id="owl-demo" class="slider-home owl-carousel owl-theme owl-loaded">
-            <div class="owl-stage-outer">
-                <div class="owl-stage" style="transition: all 0.5s ease 0s;">
+        
+        
+
+        <div class="carousel-main-wrapper">
+            <!-- <img class="carousel-imgs" src="./images/video.png" alt="video"> -->
+            <div id="owl-demo" class="slider-home owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage" style="width: 1400px; transform: translate3d(0, 0, 0);">
                     <div class="owl-item active"  style="width: 1400px;">
-                        <div class="item">
+                            <a title="video" href="#">
+                            <img src="./images/video.png" alt="video" width="1400" height="644"></a>
+                    </div>
+                    <div class="owl-item" style="width: 1400px;">           
                             <a title="video" href="#">
                                 <img src="./images/video.png" alt="video" width="1400" height="644"></a>
-                        </div>
                     </div>
                     <div class="owl-item" style="width: 1400px;">
-                        <div class="item">
                             <a title="video" href="#">
                                 <img src="./images/video.png" alt="video" width="1400" height="644"></a>
-                        </div>
                     </div>
-                    <div class="owl-item cloned" style="width: 1400px;">
-                        <div class="item">
+                    <div class="owl-item" style="width: 1400px;">
                             <a title="video" href="#">
                                 <img src="./images/video.png" alt="video" width="1400" height="644"></a>
-                        </div>
                     </div>
-                    <div class="owl-item cloned" style="width: 1400px;">
-                        <div class="item">
+                    <div class="owl-item">
                             <a title="video" href="#">
                                 <img src="./images/video.png" alt="video" width="1400" height="644"></a>
-                        </div>
-                    </div>
-                    <div class="owl-item cloned">
-                        <div class="item">
-                            <a title="video" href="#">
-                                <img src="./images/video.png" alt="video" width="1400" height="644"></a>
-                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="owl-controls">
-                <div class="owl-nav">
-                    <div class="owl-prev" style="">prev</div>
-                    <div class="owl-next" style="">next</div>
+                <div class="owl-controls">
+                    <div class="owl-nav">
+                        <div class="owl-prev" style="">prev</div>
+                        <div class="owl-next" style="">next</div>
+                    </div>
+                    <div class="owl-dots" style="text-align: initial;">
+                        <div class="owl-dot active"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                    </div>
                 </div>
-                <div class="owl-dots" style="text-align: initial;">
-                    <div class="owl-dot active"><span></span></div>
-                    <div class="owl-dot"><span></span></div>
-                    <div class="owl-dot"><span></span></div>
-                    <div class="owl-dot"><span></span></div>
-                    <div class="owl-dot"><span></span></div>
-                </div>
-            </div>
 
-            <script type="text/javascript">
-                require([
-                    'jquery',
-                    'owlcarousel'
-                ], function($) {
-                    jQuery(".slider-home").owlCarousel({
-                        items: 1,
-                        autoplay: true,
-                        loop: true,
-                        nav: true,
-                        dots: true,
-                        autoplaySpeed: 500,
-                        navSpeed: 500,
-                        dotsSpeed: 500,
-                        autoplayHoverPause: true,
-                        margin: 1,
+                <script type="text/javascript">
+                    $( document ).ready(function() {
+                        $(".slider-home").owlCarousel({
+                                items: 1,
+                                autoplay: true,
+                                loop: true,
+                                nav: true,
+                                dots: true,
+                                autoplaySpeed: 500,
+                                navSpeed: 500,
+                                dotsSpeed: 500,
+                                autoplayHoverPause: true,
+                                margin: 1,
+                            });
                     });
-                });
-            </script>        
+                </script>        
+            </div>
+
+            <div class="carousel-inner-wrapper">
+                <div class="carousel-overview">
+                    <img src="./images/why_MU.png" alt="why Mahindra University">
+                    <div>
+                        <h5>Why Mahindra University</h5>
+                        <p>
+                            Mahindra university signifies the ‘Rise of the New Engineer’
+                        </p>
+                        <p>Learn more<i class="arrow right" style="margin-left: 8px;border: solid #ffffff;border-width: 0 0.3px 0.3px 0;"></i></p>                                
+                    </div>
+                </div>
+                <div class="carousel-overview">
+                    <img src="./images/why_MU.png" alt="why Mahindra University">
+                    <div>
+                        <h5>Announcements</h5>
+                        <p>
+                            Mahindra university signifies the ‘Rise of the New Engineer’
+                        </p>
+                        <p>Learn more<i class="arrow right" style="margin-left: 8px;border: solid #ffffff;border-width: 0 0.3px 0.3px 0;"></i></p>                                
+                    </div>
+                </div>
+                <div class="carousel-overview">
+                    <img src="./images/why_MU.png" alt="why Mahindra University">
+                    <div>
+                        <h5>Placements</h5>
+                        <p>
+                            Mahindra university signifies the ‘Rise of the New Engineer’
+                        </p>
+                        <p>Learn more<i class="arrow right" style="margin-left: 8px;border: solid #ffffff;border-width: 0 0.3px 0.3px 0;"></i></p>                                
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="MU-wrapper">
+            <div class="MU-inner-wrapper">
+                <h5>Are you striving to be a high-impact researcher?</h5>
+                <h3>Then <span>Mahindra University</span> 
+                    is for you.</h3>
+                <hr>
+                <p>A University with a significant role in the global dynamics of R & D and 
+                    higher learning, where students are motivated to attain their true potential, 
+                    faculty and staff aim to achieve excellence in pedagogy and contemporary 
+                    frontiers of research and in providing services respectively and alumni 
+                    strive to achieve global leadership.
+                </p>
+                <div class="facility">
+                    <img src="./images/processor.svg" alt="processor">
+                    <div>
+                        <h4>World class research facilities</h4>
+                        <p>To promote Research at an International Level of Excellence 
+                            to extend the edge of Scientific Knowledge and Contribute to the Rise of a New India".
+                        </p>
+                        <div class="learn-more">
+                            <p>Learn more<i class="arrow right" style="margin-left: 8px;"></i></p>
+                            <p><img src="./images/ic-play-circle-outline-24-px.svg" style="padding-right: 5px;">Watch video</p>
+                        </div>
+                    </div>     
+                </div>
+                <div class="facility">
+                    <img src="./images/school.svg" alt="school">
+                    <div>
+                        <h4>A great place to learn & grow</h4>
+                        <p>MEC, an Engineering college with the best of infrastructure, 
+                            provides creative learning spaces that are required to develop well-rounded engineers.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="#">Library<i class="arrow right" style="margin-left: 8px;"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Research & Innovation Lab<i class="arrow right" style="margin-left: 8px;"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Success Stories<i class="arrow right" style="margin-left: 8px;"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Campus Life<i class="arrow right" style="margin-left: 8px;"></i></a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+            <div class="bitmap-images">
+                <div>
+                    <img src="./images/bitmap-3.png" alt="bitmap3">
+                    <img src="./images/bitmap.png" alt="bitmap">
+                </div>
+                <div>
+                    <img src="./images/bitmap-2.png" alt="bitmap2">
+                    <img src="./images/bitmap-1.png" alt="bitmap1">
+                </div>
+            </div>
         </div>
     </section>
     <!-- Banner section ends -->  
