@@ -28,7 +28,7 @@
 .second-nav {
   height: 68px;
   background-color: #ffffff;
-  padding-top: 17px;
+  padding: 17px 150px 0;
   /* padding-left: 150px; */
 }
 .second-nav img {
@@ -195,13 +195,13 @@
 
 /***************Start of Banner styles****************/
 .banner-wrapper {
-  padding-top: 80px;
-  padding-left: 75px;
+  padding: 80px 50px 0;
 }
 .mail-info {
   position: relative;
+  padding-left: 150px;
 }
-.mail-info p {
+.mail-info .mailid {
   width: 195px;
   transform: rotate(-90deg);
   opacity: 0.6;
@@ -213,14 +213,15 @@
   margin: 0;
   position: absolute;
   top: 80px;
+  left: 60px;
 }
 .mail-info img {
   position: absolute;
   top: 210px;
-  left: 80px;
+  left: 140px;
 }
 .content {
-  padding-left: 260px;
+  padding-left: 148px;
   padding-right: 235px;
 }
 .content p {
@@ -229,6 +230,8 @@
   line-height: 1.88;
   letter-spacing: 1.04px;
   color: #6c7787;
+  margin: 0;
+  text-transform: uppercase;
 }
 .content p:last-child {
   font-family: Montserrat;
@@ -236,6 +239,8 @@
   font-weight: 300;
   line-height: 1.42;
   color: #6c7787;
+  padding-bottom: 70px;
+  text-transform: none;
 }
 .content p:last-child span {
   font-weight: 500;
@@ -246,8 +251,7 @@ hr {
   height: 4px;
   border-radius: 2px;
   background-color: #d03a40;
-  margin-left: 2px;
-  margin-bottom: 25px;
+  margin: 20px 0 30px 2px;
 }
 #owl-demo .item img {
   display: block;
