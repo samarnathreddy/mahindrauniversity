@@ -286,7 +286,8 @@ hr {
   padding: 30px 20px;
   background-color: #7c3520;
   top: 75%;
-  /* margin: 0 55px; */
+  justify-content: space-between;
+  width: 100%;
 }
 .carousel-overview {
   display: flex;
@@ -313,10 +314,12 @@ hr {
 }
 .MU-wrapper {
   display: flex;
-  padding: 80px 0px 66px;
+  padding: 80px 20px 66px;
+  width: 100%;
 }
 .MU-inner-wrapper {
-  padding-right: 85px;
+  /* padding-right: 85px; */
+  width: 46%;
 }
 .MU-inner-wrapper h5 {
   opacity: 0.8;
@@ -382,6 +385,8 @@ hr {
 }
 .bitmap-images {
   display: flex;
+  width: 54%;
+  padding: 0 20px;
 }
 .bitmap-images div:first-child {
   padding-top: 60px;
@@ -392,12 +397,14 @@ hr {
 }
 .selection-wrapper {
   padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
 }
 .selection-wrapper ul {
   padding: 0;
   list-style-type: none;
   display: flex;
-  margin: 0 50px;
+  /* margin: 0 50px; */
 }
 .selection-wrapper ul li {
   width: 164px;
@@ -477,9 +484,10 @@ hr {
   border-radius: 4px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
   border: solid 2.4px #f5f5f5;
-  width: 540px;
-  height: 309px;
+  /* width: 540px;
+  height: 309px; */
   display: flex;
+  justify-content: space-around;
   margin-bottom: 30px;
 }
 .block1-wrapper.active,
@@ -488,8 +496,8 @@ hr {
 }
 .block {
   display: flex;
-  width: 100%;
-  margin-left: 20px;
+  /* width: 100%; */
+  /* margin-left: 20px; */
   padding: 27px 20px;
 }
 .inner-block {
@@ -565,7 +573,7 @@ hr {
 }
 .research-wrapper .carousel-item > div {
   width: 431px;
-  height: 472px;
+  height: 450px;
   margin: 0px 113px 64px;
   padding: 0 0 0 64px;
   border-top-left-radius: 4px;
@@ -617,7 +625,6 @@ hr {
 .success-wrapper > div {
   background-image: url("/images/rise.png");
   background-repeat: no-repeat;
-  height: 1894px;
   padding: 85px;
   background-size: cover;
 }
@@ -710,6 +717,44 @@ hr {
 .success-info span:first-child {
   font-weight: bold;
   font-size: 36px;
+}
+.success-placements {
+  margin-top: 410px;
+}
+.success-placements h4 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.39;
+  color: #ffffff;
+  text-align: center;
+}
+.success-placements h4 strong {
+  font-weight: 500;
+}
+.success-placements p {
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+  color: #ffffff;
+  margin: 13px 180px 0;
+}
+.success-placements hr {
+  margin: 20px auto 45px;
+  background-color: #ffffff;
+}
+.placement-list ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.placement-list ul:first-child {
+  margin-bottom: 55px;
+}
+.placement-list ul li {
+  padding-left: 30px;
+}
+.placement-list ul li:first-child {
+  padding: 0;
 }
 /***************End of Success stories styles*************/
 
