@@ -9,6 +9,8 @@ h6,
 span,
 a {
   font-family: Montserrat;
+  margin: 0;
+  padding: 0;
 }
 /***************Start of Homepage styles*************/
 /***************Header styles***************/
@@ -289,11 +291,11 @@ hr {
 }
 .carousel-inner-wrapper {
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   height: 164px;
   padding: 30px 20px;
   background-color: #7c3520;
-  top: 75%;
+  /* top: 93%; */
   justify-content: space-between;
   width: 100%;
 }
@@ -638,7 +640,7 @@ hr {
 .success-wrapper > div {
   background-image: url("/images/rise.png");
   background-repeat: no-repeat;
-  padding: 85px;
+  padding: 85px 0;
   background-size: cover;
 }
 .success-inner h4 {
@@ -666,7 +668,6 @@ hr {
   height: 400px;
 }
 .success-story {
-  height: 369px;
   background-color: #ffffff;
   position: absolute;
   width: 590px;
@@ -683,6 +684,10 @@ hr {
   font-weight: bold;
   font-style: italic;
   color: #d0313f;
+}
+.success-story img {
+  width: 60px;
+  height: 60px;
 }
 .story {
   padding: 66px 0 0;
@@ -706,7 +711,6 @@ hr {
 .success-details {
   position: relative;
   top: 250px;
-  margin: 0 140px;
 }
 .success-info {
   width: 125px;
@@ -745,7 +749,6 @@ hr {
   background-color: #ffffff;
 }
 .placement-list ul {
-  display: flex;
   list-style-type: none;
   padding: 0;
 }
@@ -766,14 +769,14 @@ footer {
   overflow: hidden;
 }
 .footer-section {
-  background-color: #000000;
-  /* background-image: url('');
+  /* background-color: #000000; */
+  background-image: url("/images/bg.svg");
   background-repeat: no-repeat;
-  background-size: cover; */
-  padding: 0 85px;
+  background-size: cover;
+  padding: 0 55px;
 }
 .footer-social {
-  padding-top: 50px;
+  padding-top: 109px;
 }
 .footer-social h4 {
   width: 139px;
@@ -791,7 +794,8 @@ footer {
 }
 footer hr,
 .footer-hr {
-  width: 945px;
+  /* width: 945px; */
+  width: auto;
   height: 1px;
   margin: 48px 0 64px;
   opacity: 0.3;
@@ -950,32 +954,25 @@ footer hr,
 
 /************** Start of Tabs section styles **********/
 ul.nav.nav-pills {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
   border-bottom: 1px solid #dcd6d6;
-  width: 92%;
-  margin-top: 70px;
-  margin-bottom: 69px;
+  margin: 70px 0;
+}
+.nav-pills .nav-link {
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+  opacity: 0.5;
+  border-radius: 0px;
+  padding: 0px 103px 17px 103px !important;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   font-size: 14px;
   line-height: 2.14;
   color: #1d2329;
+  opacity: 1;
   background: transparent;
-  padding: 0px 100px;
-  margin-bottom: -5px;
   border-bottom: 4px solid #d03a40;
-}
-.nav-pills .nav-link {
-  font-size: 14px;
-  line-height: 2.14;
-  color: #b0b1b3;
-  border-radius: 0px;
-  padding: 0px 103px 17px 103px !important;
 }
 .ordinance_title {
   opacity: 0.8;
@@ -1124,6 +1121,112 @@ ul.nav.nav-pills {
 /***************End of Impact wrapper styles*************/
 /***************End of About us styles*************/
 
-/***************Start of Academics styles*************/
+/***************Start of Academics screens styles*************/
+/***************Start of faculty profile styles*************/
+/***************Start of profile details styles*************/
+.faculty-profile-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.profile-details-block {
+  padding-left: 29px;
+}
+.profile-details-block h4,
+.profile-details-block strong {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+}
+.profile-details-block strong {
+  font-weight: 500;
+}
+.profile-details-block span {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #6c7787;
+}
+.profile-details-block .profile-contact {
+  padding-top: 27px;
+  padding-left: 20px;
+}
+/***************End of profile details styles*************/
 
-/***************End of Academics styles*************/
+/***************Start of tab description styles*************/
+.tabs-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.tab-content > .tab1 {
+  margin: 0;
+  padding: 0;
+}
+.faculty_description {
+  padding-left: 10px;
+}
+.faculty_description p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.faculty-edu,
+.faculty-exp,
+.faculty-publications,
+.faculty-research {
+  padding-top: 30px;
+}
+.faculty-edu h4,
+.faculty-exp h4,
+.faculty-publications h4,
+.faculty-research h4 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+}
+.faculty-edu ul,
+.faculty-exp ul,
+.faculty-exp span,
+.faculty-publications ul,
+.faculty-research ul {
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.faculty-exp span {
+  padding-left: 0;
+}
+.faculty-edu ul:last-child,
+ul.institute,
+.syllabus .course:last-child {
+  list-style-type: none;
+  padding: 0;
+}
+.faculty-edu ul li,
+.faculty-publications ul li,
+.faculty-research ul li {
+  padding-left: 15px;
+}
+.faculty-edu ul:last-child li {
+  padding-left: 0;
+}
+.syllabus .course {
+  margin-left: 50px;
+}
+.faculty-publications span {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.faculty-publications ul {
+  padding-top: 25px;
+}
+.faculty-publications ul li {
+  padding-bottom: 25px;
+}
+/***************End of tab description styles*************/
+
+/***************End of faculty profile styles*************/
+/***************End of Academics screens styles*************/
