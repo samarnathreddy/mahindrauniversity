@@ -1107,7 +1107,7 @@ ul.nav.nav-pills {
   margin-bottom: 50px;
 }
 .impact-count {
-  margin-right: 100px;
+  margin-right: 89px;
 }
 .impact-count h1 {
   font-size: 36px;
@@ -1117,6 +1117,9 @@ ul.nav.nav-pills {
 .impact-count span {
   font-size: 15px;
   color: #34383c;
+}
+.mu-stamplog{
+  margin-top: 12px;
 }
 /***************End of Impact wrapper styles*************/
 /***************End of About us styles*************/
