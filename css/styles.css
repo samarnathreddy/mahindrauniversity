@@ -1227,6 +1227,52 @@ ul.institute,
   padding-bottom: 25px;
 }
 /***************End of tab description styles*************/
-
 /***************End of faculty profile styles*************/
+
+/***************Start of Btech AI screen styles*************/
+.AI-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.AI-wrapper > div {
+  padding-bottom: 60px;
+}
+.AI-wrapper .title {
+  width: 212px;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+}
+.AI-wrapper .title strong {
+  font-weight: 500;
+}
+.AI-wrapper img {
+  border-radius: 10px;
+}
+.AI-overview-wrapper {
+  padding-top: 60px;
+}
+.AI-overview-first-wrap h6 {
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #6c7787;
+}
+.AI-overview-second-wrap h5 {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.29;
+  color: #1d2329;
+  padding-bottom: 30px;
+}
+.AI-overview-second-wrap p {
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+  padding-bottom: 20px;
+  width: 590px;
+}
+/***************End of Btech AI screen styles*************/
+
 /***************End of Academics screens styles*************/
