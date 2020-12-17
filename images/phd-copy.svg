@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="104" viewBox="0 0 111 104">
+    <defs>
+        <path id="aws7a6299a" d="M0 68.621L78.424 68.621 78.424 0 0 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path stroke="#222829" stroke-linejoin="round" stroke-width="2" d="M31.86 26.958L31.86 11.028 36.761 11.028 36.761 26.958" transform="translate(-193 -2334) translate(151 2290) translate(42 44) translate(16.891 18.098)"/>
+                        <g transform="translate(-193 -2334) translate(151 2290) translate(42 44) translate(16.891 18.098)">
+                            <path stroke="#222829" stroke-linejoin="round" stroke-width="2" d="M20.831 1.225H15.93v9.803h4.901c0-1.352 1.647-2.45 3.676-2.45 2.03 0 3.677 1.098 3.677 2.45h11.028v-2.45s9.803 0 12.254 4.901c0-11.028-12.254-11.028-12.254-11.028V1.225H28.184c0 1.353-1.647 2.451-3.677 2.451-2.029 0-3.676-1.098-3.676-2.45z"/>
+                            <path stroke="#D0313F" stroke-linejoin="round" stroke-width="2" d="M34.31 29.409L34.31 31.86M34.31 34.31L34.31 36.761M34.31 39.212L34.31 41.663"/>
+                            <path stroke="#222829" stroke-linejoin="round" stroke-width="2" d="M39.212 30.634c0-2.707-2.195-4.901-4.902-4.901-2.706 0-4.901 2.194-4.901 4.901v31.86l-2.45 2.45v2.452h12.253V30.634zM53.916 57.593c0 4.901 7.353 9.803 7.353 9.803v-9.803"/>
+                            <path stroke="#222829" stroke-linejoin="round" stroke-width="2" d="M64.945 53.916c2.029 0 3.676 1.647 3.676 3.677v9.803c1.225 0 8.578-3.677 8.578-13.48S68.62 41.663 68.62 41.663V6.127c0-2.707-2.195-4.902-4.902-4.902-2.706 0-4.901 2.195-4.901 4.902v35.536c0 3.676-4.902 4.901-4.902 12.253h11.029zM62.494 49.015L67.396 49.015"/>
+                            <path stroke="#D0313F" stroke-linejoin="round" stroke-width="2" d="M63.719 7.352L63.719 4.901M63.719 12.254L63.719 9.803M63.719 17.155L63.719 14.704"/>
+                            <path stroke="#222829" stroke-linejoin="round" stroke-width="2" d="M53.916 57.593L53.916 53.916M11.028 35.536L1.225 35.536 1.225 37.987 3.676 40.437 1.225 44.113 1.225 67.396 11.028 67.396 11.028 44.113 8.578 40.437 11.028 37.987zM6.127 11.028L6.127 35.536M1.225 62.494L11.028 62.494"/>
+                            <mask id="kmu9iexmob" fill="#fff">
+                                <use xlink:href="#aws7a6299a"/>
+                            </mask>
+                            <path stroke="#222829" stroke-linejoin="round" stroke-width="2" d="M3.676 11.028L8.578 11.028 8.578 1.225 3.676 1.225z" mask="url(#kmu9iexmob)"/>
+                            <path stroke="#D0313F" stroke-linejoin="round" stroke-width="2" d="M6.127 46.564L6.127 49.015M6.127 51.466L6.127 53.916M6.127 56.367L6.127 58.818" mask="url(#kmu9iexmob)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

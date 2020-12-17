@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="86" viewBox="0 0 92 86">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke-width="2">
+            <g>
+                <g>
+                    <g>
+                        <path stroke="#222829" stroke-linejoin="round" d="M44.115 47.692l4.77 2.385C56.038 52.462 62 54.757 62 62v13.115M17.885 47.692l-4.77 2.385C5.962 52.462 0 54.757 0 62v13.115" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#D0313F" stroke-linejoin="round" d="M11.923 65.577L11.923 75.115" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#222829" stroke-linejoin="round" d="M50.077 65.577L50.077 75.115M23.846 42.923L23.846 36.962" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#D0313F" stroke-linejoin="round" d="M38.154 42.923L38.154 36.962" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#222829" stroke-linejoin="round" d="M31 45.308L40.538 42.923 46.5 47.692 35.769 53.654 31 48.885 26.231 53.654 15.5 47.692 21.462 42.923z" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#D0313F" stroke-linejoin="round" d="M31 58.423L31 75.115" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#222829" stroke-linejoin="round" d="M52.462 7.154L31 14.308 9.538 7.154 31 0z" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#222829" d="M44.115 14.308c0 2.634-5.872 4.769-13.115 4.769s-13.115-2.136-13.115-4.77v9.54l1.192 1.191C19.077 31 22.654 39.346 31 39.346S42.923 31 42.923 25.038l1.192-1.192v-9.538z" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                        <path stroke="#D0313F" stroke-linejoin="round" d="M52.462 7.154L52.462 20.269M52.462 22.654L52.462 25.038M31 53.654L31 56.038" transform="translate(-583 -2343) translate(541 2290) translate(42 53) translate(15 5)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
