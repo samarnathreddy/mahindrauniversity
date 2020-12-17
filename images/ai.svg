@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="86" viewBox="0 0 92 86">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke-width="2">
+            <g>
+                <g>
+                    <g>
+                        <path stroke="#222829" stroke-linejoin="round" d="M47.949 59.644L51.458 59.644" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <g stroke="#222829">
+                            <path stroke-linejoin="round" d="M24.559 7.017L24.559 0" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                            <path d="M0 18.712L12.864 18.712" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        </g>
+                        <path stroke="#D0313F" d="M31.576 11.695L36.254 11.695 36.254 7.017 31.576 7.017z" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#222829" d="M31.576 21.051L36.254 21.051 36.254 16.373 31.576 16.373z" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#D0313F" d="M31.576 30.407L36.254 30.407 36.254 25.729 31.576 25.729zM22.22 11.695L26.898 11.695 26.898 7.017 22.22 7.017zM22.22 30.407L26.898 30.407 26.898 25.729 22.22 25.729zM12.864 11.695L17.542 11.695 17.542 7.017 12.864 7.017zM12.864 21.051L17.542 21.051 17.542 16.373 12.864 16.373zM12.864 30.407L17.542 30.407 17.542 25.729 12.864 25.729z" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#222829" d="M33.915 30.407L33.915 37.424 38.593 37.424 38.593 42.102 56.136 42.102" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#D0313F" d="M56.136 23.39L53.797 23.39" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#222829" d="M36.254 28.068L43.271 28.068 43.271 18.712 36.254 18.712" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#D0313F" d="M46.78 9.356L49.119 9.356M46.78 14.034L49.119 14.034M51.458 14.034L53.797 14.034M46.78 18.712L49.119 18.712" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <g stroke="#1D2329">
+                            <path d="M0 30.407L0 44.441 4.678 44.441 4.678 73.678" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6) translate(24.56)"/>
+                            <path stroke-linejoin="round" d="M9.356 7.017L9.356 0" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6) translate(24.56)"/>
+                        </g>
+                        <path stroke="#1D2329" d="M12.864 28.068L5.847 28.068 5.847 9.356 12.864 9.356" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#1D2329" stroke-linejoin="round" d="M22.22 73.678L22.22 56.136 15.203 42.102 15.203 30.407" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#D0313F" d="M33.915 40.932L33.915 43.271M29.237 33.915L29.237 36.254M29.237 38.593L29.237 40.932M33.915 45.61L33.915 47.949" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#222829" d="M37.424 46.78L39.763 46.78M36.254 9.356L43.271 9.356 43.271 15.203M51.458 23.39L43.271 23.39" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <path stroke="#D0313F" d="M22.22 21.051L26.898 21.051 26.898 16.373 22.22 16.373z" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6)"/>
+                        <g stroke="#222829">
+                            <path d="M10.525 51.458L15.203 51.458 15.203 73.678" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6) translate(18.712)"/>
+                            <path stroke-linejoin="round" d="M0 0h18.712c13.564 0 24.56 10.996 24.56 24.56l7.016 15.203v2.339h-7.017v10.525c0 3.875-3.142 7.017-7.017 7.017h-7.017v14.034" transform="translate(-193 -1437) translate(151 1384) translate(42 53) translate(12 6) translate(18.712)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

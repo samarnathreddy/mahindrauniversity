@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="86" viewBox="0 0 92 86">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke-width="2">
+            <g>
+                <g>
+                    <g>
+                        <path stroke="#222829" d="M23.125 62.197L28.906 50.635M45.094 50.635L50.875 62.197" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9)"/>
+                        <g stroke="#1D2329">
+                            <path d="M57.813 4.625L74 4.625M25.438 4.625L0 4.625M19.656 4.625L19.656 0 54.344 0 54.344 4.625 27.75 4.625" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9) translate(0 62.438)"/>
+                        </g>
+                        <path stroke="#222829" d="M57.813 62.438L60.125 62.438M62.438 62.438L64.75 62.438" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9)"/>
+                        <g>
+                            <path stroke="#222829" d="M0 38.156L0 0 32.375 0" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9) translate(1.156)"/>
+                            <path stroke="#1D2329" d="M35.844 30.063L35.844 0 71.688 0 71.688 41.625 0 41.625 0 50.875 71.688 50.875 71.688 45.094" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9) translate(1.156)"/>
+                        </g>
+                        <path stroke="#222829" d="M42.781 24.041L37 29.822 31.219 24.041" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9)"/>
+                        <g stroke="#D0313F">
+                            <path d="M25.438 12.478c0-4.47 3.623-8.094 8.093-8.094s8.094 3.624 8.094 8.094c4.47 0 8.094 3.744 8.094 8.214 0 4.47-3.624 8.214-8.094 8.214H17.344c-3.83 0-6.938-3.227-6.938-7.057 0-3.831 3.107-6.998 6.938-6.998 0-3.193 2.587-5.811 5.781-5.811M0 1.156L13.875 1.156M0 5.781L2.313 5.781M4.625 5.781L6.938 5.781M0 10.406L2.313 10.406" transform="translate(-193 -1890) translate(151 1837) translate(42 53) translate(9 9) translate(6.938 5.781)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

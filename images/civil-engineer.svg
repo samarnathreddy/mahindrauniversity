@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="86" viewBox="0 0 92 86">
+    <defs>
+        <path id="1kqjipd9na" d="M0 74L74 74 74 0 0 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-583 -1437) translate(541 1384) translate(42 53) translate(9 6)">
+                        <path stroke="#1D2329" stroke-linejoin="round" stroke-width="2" d="M24.281 37v5.781l-10.406 4.625C6.937 49.72 1.156 53.101 1.156 60.125V74M12.719 48.563L12.719 74"/>
+                        <path stroke="#1D2329" stroke-linejoin="round" stroke-width="2" d="M43.938 21.969v2.312l-1.157 1.157c0 5.78-3.468 13.875-11.562 13.875s-11.563-8.094-11.563-13.876L18.5 24.282V21.97M38.156 42.781L31.219 50.875 24.281 42.781M47.406 15.031c0 3.194-7.247 5.781-16.187 5.781-8.94 0-16.188-2.587-16.188-5.78M17.344 15.031c0-7.662 6.212-13.875 13.875-13.875 7.662 0 13.875 6.213 13.875 13.875M33.531 5.781c0-1.914 1.554-3.468 3.469-3.468M33.531 5.781L33.531 15.031M25.438 2.313c1.914 0 3.468 1.553 3.468 3.468M28.906 5.781L28.906 15.031M19.656 45.094L19.656 74"/>
+                        <path stroke="#1D2329" stroke-linejoin="round" stroke-width="2" d="M42.781 74L42.781 45.094 38.156 42.781 38.156 37"/>
+                        <path stroke="#222829" stroke-width="2" d="M69.375 37L72.844 37 72.844 72.844 47.406 72.844 47.406 37 50.875 37"/>
+                        <mask id="fslk555ogb" fill="#fff">
+                            <use xlink:href="#1kqjipd9na"/>
+                        </mask>
+                        <path stroke="#D0313F" stroke-width="2" d="M54.344 39.313L65.906 39.313 65.906 34.688 54.344 34.688z" mask="url(#fslk555ogb)"/>
+                        <path stroke="#1D2329" stroke-width="2" d="M55.5 43.938L69.375 43.938" mask="url(#fslk555ogb)"/>
+                        <path stroke="#D0313F" stroke-width="2" d="M53.188 43.938L50.875 43.938" mask="url(#fslk555ogb)"/>
+                        <path stroke="#1D2329" stroke-width="2" d="M55.5 48.563L69.375 48.563" mask="url(#fslk555ogb)"/>
+                        <path stroke="#D0313F" stroke-width="2" d="M53.188 48.563L50.875 48.563" mask="url(#fslk555ogb)"/>
+                        <path stroke="#1D2329" stroke-width="2" d="M55.5 53.188L69.375 53.188" mask="url(#fslk555ogb)"/>
+                        <path stroke="#D0313F" stroke-width="2" d="M53.188 53.188L50.875 53.188" mask="url(#fslk555ogb)"/>
+                        <path stroke="#1D2329" stroke-width="2" d="M55.5 57.813L69.375 57.813" mask="url(#fslk555ogb)"/>
+                        <path stroke="#D0313F" stroke-width="2" d="M53.188 57.813L50.875 57.813M69.375 65.906L63.594 65.906" mask="url(#fslk555ogb)"/>
+                        <path stroke="#D0313F" stroke-linejoin="round" stroke-width="2" d="M30.063 55.5L32.375 55.5M30.063 60.125L32.375 60.125M30.063 64.75L32.375 64.75" mask="url(#fslk555ogb)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
