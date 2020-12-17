@@ -1281,27 +1281,16 @@ ul.institute,
   width: 590px;
 }
 /***************End of Btech AI screen styles*************/
-
 /***************End of Academics screens styles*************/
 
-/***************Start of Alumni screen styles*************/
-
-/***************End of Alumni screens styles*************/
-
-
-
 /***************Start of Alumni screens  styles*************/
-
-.alumni-wrapper{
-
+.alumni-wrapper {
   padding: 0px 50px 0px;
   overflow: hidden;
-
 }
-.alumni-img{
+.alumni-img {
   width: 1445px;
   overflow: hidden;
   margin: 30px 0px 30px;
 }
-
 /***************End of Alumni screens styles*************/
