@@ -182,11 +182,12 @@ a {
   margin: 0;
   padding-bottom: 10px;
 }
-.overview-wrapper p:nth-child(2) {
+.overview-wrapper a {
   font-size: 14px;
   line-height: 1.36;
   color: #d0313f;
   padding-bottom: 25px;
+  text-decoration: none;
 }
 .overview-wrapper > div {
   margin-left: 32px;
@@ -300,6 +301,24 @@ hr {
   justify-content: space-between;
   width: 100%;
 }
+.header-text {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+.header-text h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.42;
+  color: #ffffff;
+}
+.header-text h3 {
+  font-size: 16px;
+  line-height: 1.19;
+  color: #ffffff;
+  padding-top: 11px;
+  font-weight: 300;
+}
 .carousel-overview {
   display: flex;
 }
@@ -319,9 +338,12 @@ hr {
   color: #ffffff;
   margin-bottom: 9px;
 }
-.carousel-overview p:nth-child(1) {
+.carousel-overview a {
   font-size: 14px;
   line-height: 1.36;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
 }
 .MU-wrapper {
   padding: 80px 20px 66px;
@@ -379,11 +401,14 @@ hr {
   padding-top: 13px;
   display: flex;
 }
-.learn-more p,
+.learn-more a,
 .more1 {
   color: #d0313f;
 }
-.learn-more p:nth-child(2) {
+.learn-more a {
+  text-decoration: none;
+}
+.learn-more a:last-child {
   padding-left: 25px;
 }
 .learn-more img {
@@ -531,20 +556,28 @@ hr {
 .inner-block p:nth-of-type(2) {
   width: 244px;
   margin: 0;
+  padding-bottom: 20px;
 }
-.inner-block p:nth-of-type(3) {
-  margin-top: 20px;
+.inner-block a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.5;
 }
-.block.active .inner-block p:nth-of-type(3) {
+.block.active .inner-block a {
   color: #d0313f;
+  opacity: 1;
 }
 .block.active i {
   border: solid #d0313f;
   border-width: 0 0.3px 0.3px 0;
   opacity: 1;
 }
+.new-link {
+  text-align: center;
+}
 .view-all {
   color: #d0313f !important;
+  text-decoration: none;
 }
 /***************End of What's new styles*************/
 
@@ -615,14 +648,18 @@ hr {
   color: #454b52;
   text-align: left;
 }
-.research-wrapper .carousel-item > div p:last-child {
+.research-wrapper .carousel-item > div a {
+  width: 306px;
+  height: 231px;
+  margin: 13px 61px 31px 0;
   font-size: 14px;
   line-height: 1.36;
   color: #d0313f;
   padding-bottom: 73px;
+  text-decoration: none;
 }
 .research-wrapper .carousel-item img {
-  width: 450px !important;
+  width: 755px !important;
   height: 450px;
   float: right;
   margin-right: 121px;
@@ -1282,7 +1319,7 @@ ul.institute,
 }
 /***************End of Btech AI screen styles*************/
 
-/***************Start of Btech program about screen styles*************/
+/***************Start of Btech program about section styles*************/
 .program-text .title {
   width: 415px;
 }
@@ -1350,9 +1387,9 @@ ul.institute,
   text-decoration: none;
   padding-top: 30px;
 }
-/***************End of Btech program about screen styles*************/
+/***************End of Btech program about section styles*************/
 
-/***************Start of Btech program structure screen styles*************/
+/***************Start of Btech program structure section styles*************/
 .program-structure-wrapper {
   padding: 0 50px;
   overflow: hidden;
@@ -1380,8 +1417,357 @@ ul.institute,
 .program-structure-wrapper hr {
   margin: 20px auto 45px;
 }
-/***************End of Btech program structure screen styles*************/
+.structure-block {
+  padding: 0 60px;
+}
+.structure-block p {
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+  text-align: left;
+  font-weight: 300;
+}
+.structure-block b {
+  font-weight: 500;
+}
+.structure-block ul {
+  font-size: 15px;
+  line-height: 2.67;
+  color: #6c7787;
+  list-style-type: none;
+}
+.structure-block ul .tick-mark {
+  background: url(/images/tick.svg) no-repeat left center;
+  padding-left: 26px;
+}
+/***************End of Btech program structure section styles*************/
+
+/***************Start of No. of credits section styles*************/
+.credits-section {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.credits-section > div {
+  padding: 67px 0;
+}
+.credits-section h4 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1d2329;
+  text-align: center;
+}
+.credits-section strong {
+  font-weight: 500;
+}
+.credits-section hr {
+  margin: 20px auto 45px;
+}
+.table caption {
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+}
+.table thead tr,
+.table tbody tr {
+  border-radius: 5px;
+  border: solid 2.4px #f5f5f5;
+}
+.table thead tr th {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.73;
+  color: #6c7787;
+  padding: 21px 32px;
+}
+.table tbody tr th {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000000;
+  padding: 15px 32px;
+}
+.table tbody tr td {
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+  padding: 15px 32px;
+}
+/***************End of No. of credits section styles*************/
+
+/***************Start of branch change section styles*************/
+.branch-section {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.branch-section > div {
+  padding: 67px 0;
+  background-color: #f6f8f9;
+}
+.branch-block {
+  padding: 0 40px;
+}
+.branch-block h6 {
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #6c7787;
+}
+.branch-block h4 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1d2329;
+}
+.branch-block strong {
+  font-weight: 500;
+}
+.branch-block p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  padding-bottom: 20px;
+}
+/***************End of branch change section styles*************/
+
+/***************Start of testimonial section styles*************/
+.testimonial-section {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.testimonial-section > div {
+  padding: 67px 115px;
+  background-color: #2f3437;
+}
+.testimonial-block {
+  padding: 74px 110px;
+  border-radius: 4px;
+  background-color: #f7f8fa;
+}
+.testimonial-block1 h5 {
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  width: 201px;
+}
+.testimonial-block2 {
+  padding-left: 38px;
+}
+.testimonial-block2 h5 {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.41;
+  letter-spacing: -0.4px;
+  color: #1d2329;
+}
+.testimonial-block2 strong {
+  font-weight: 500;
+}
+.testimonial-block2 p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #454b52;
+  padding-top: 14px;
+}
+/***************End of testimonial section styles*************/
+
+/***************Start of fee section styles*************/
+.fee-wrapper > div {
+  background-color: #ffffff;
+  margin: 0 50px;
+}
+.fee-structure-block {
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+.fee-structure-block h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.fee-structure-block ul {
+  list-style-type: none;
+  padding-top: 11px;
+  padding-left: 0;
+}
+.fee-structure-block ul li,
+.fee-structure-block p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.fee-structure-block ul li:nth-child(even) {
+  font-weight: 500;
+}
+.fee-structure-block p {
+  padding-left: 8px;
+  text-align: left;
+}
+.fee-application {
+  padding-top: 30px;
+}
+.fee-application span {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #707c8e;
+}
+.fee-application a {
+  font-weight: 500;
+  color: #d0313f;
+  text-decoration: none;
+}
+.fee-application > div {
+  padding-top: 20px;
+}
+.fee-application h5 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.fee-application ul {
+  list-style-type: none;
+  padding: 20px 0;
+}
+.fee-application li span {
+  flex: 1;
+}
+.fee-application ul li span:first-child {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.47;
+  color: #000000;
+}
+.fee-application ul li span:last-child {
+  font-size: 15px;
+  line-height: 1;
+  color: #6c7787;
+  /* padding-left: 40px; */
+}
+.fee-application ul li span img {
+  padding-right: 20px;
+}
+/***************End of fee section styles*************/
 /***************End of Academics screens styles*************/
+
+/***************Start of Blogs screens styles*************/
+/***************Start of About blog section styles*************/
+.blog-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.blog-wrapper .blogss {
+  padding-bottom: 60px;
+}
+.blog-wrapper .title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+  width: 415px;
+}
+.blog-wrapper .subtitle_txt {
+  width: 1010px;
+}
+.blog-wrapper img {
+  border-radius: 10px;
+}
+.blogs-cards {
+  padding-top: 60px;
+}
+.blogs-cards .card {
+  width: 360px;
+  height: 480px;
+  padding: 19px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+}
+.blogs-cards .card-img-top {
+  width: 320px;
+  height: 187px;
+}
+.blogs-cards .card-body span {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+}
+.blogs-cards .card-body span img {
+  padding-right: 17px;
+}
+.blogs-cards a {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #d0313f;
+  float: right;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.pagination-wrapper {
+  padding: 50px 0;
+}
+.page-item {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.page-item.active .page-link {
+  background-color: #d0313f;
+  color: #ffffff;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+.page-link {
+  padding: 16px 21px;
+  color: #333333;
+}
+/***************End of About blog section styles*************/
+
+/***************Start of blog detail section styles*************/
+.blog-detail-wrapper {
+  padding: 60px 0;
+}
+.blog-detail-first-wrap h6 {
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #6c7787;
+}
+.blog-detail-first-wrap .title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+  width: 335px;
+}
+.blog-detail-first-wrap h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000000;
+}
+.blog-detail-first-wrap .title strong {
+  font-weight: 500;
+}
+.blog-detail-second-wrap p {
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+  padding-bottom: 20px;
+}
+.blog-read {
+  text-align: right;
+}
+.blog-read a {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #d0313f;
+}
+/***************End of blog detail section styles*************/
+/***************End of Blogs screens styles*************/
 
 /***************Start of Alumni screens  styles*************/
 .alumni-wrapper {
