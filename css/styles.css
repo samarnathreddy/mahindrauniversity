@@ -1388,7 +1388,7 @@ ul.institute,
   margin-top: 40px;
 }
 .alumni-wrapper {
-  padding: 50px 50px 50px;
+  padding: 0px 50px 50px;
   overflow: hidden;
 }
 .upcoming_events_wrapper{
@@ -1569,3 +1569,91 @@ margin: 0px 10px 0px 4px;
 }
 
 /***************End of Alumni screens styles*************/
+
+.alumni_council_wrapper{
+  margin-top: 15px;
+}
+.alumni-council p {
+  width: 445px;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+
+.upcoming_council_events_wrapper{
+padding-top: 40px;
+padding-bottom: 40px;
+  overflow: hidden;
+  background-color: #f6f8f9;
+
+}
+
+.alumni-council-img {
+  width: 1456px;
+  margin-top: 40px;
+
+}
+
+.coming-event img {
+  width: 616px;
+  margin-right: 30px;
+}
+.alumni_council_events_tilte img{
+ width: 312px;
+ 
+}
+.alumni_council_events_first_img{
+  margin-right: 30px;
+}
+.alumni_council_events_tilte.first h1{
+
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 20px 0px 9px 9px;
+  width: 322px;
+}
+
+.alumni_council_events_tilte.first h2{
+  margin: 20px 0px 9px 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+  width: 285px;
+} 
+.alumni_council_events_tilte h1{
+
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 20px 0px 9px 9px;
+}
+
+.alumni_council_events_tilte h2{
+  margin: 20px 0px 9px 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+  width: 285px;
+} 
