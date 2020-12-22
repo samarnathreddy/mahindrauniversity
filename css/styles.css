@@ -2459,7 +2459,6 @@ ul.institute,
 /***************End of media-releases section styles*************/
 /***************End of Media screens styles*************/
 
-/***************Start of Academics screens styles*************/
 /***************start of academic-credit section styles*************/
 .credits-section .no-credits {
   text-align: left;
@@ -2468,7 +2467,33 @@ ul.institute,
   margin: 20px 0 30px 2px;
 }
 /***************End of Academics-credit section styles*************/
-/***************End of Academics screens styles*************/
+
+/***************Start of Scholarship & pay-fee screens styles*************/
+.scholar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.scholar ul .tick-mark {
+  background: url(/images/tick.svg) no-repeat left top;
+  padding-left: 26px;
+}
+.scholar a {
+  font-weight: 500;
+  color: #d03a40;
+  text-decoration: none;
+}
+.scholar span:first-child {
+  font-weight: 500;
+  color: #000000;
+  padding-right: 30px;
+}
+.pay-fee-hr {
+  width: 555px;
+  height: 1px;
+  opacity: 0.26;
+  border: solid 1px #979797;
+}
+/***************End of Scholarship & pay-fee screens styles*************/
 
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
