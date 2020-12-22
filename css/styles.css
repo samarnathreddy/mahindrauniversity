@@ -2205,3 +2205,90 @@ padding-bottom: 40px;
 }
 
 /**  END of Campus Student Activity Screen **/
+
+
+/** Start of Campus Infrastructure Activity Screen **/
+.campus_infra_wrapper{
+
+  padding: 0px 50px 50px;
+  overflow: hidden;
+
+
+}
+
+.nav-pills.custom-link .nav-link{
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+  opacity: 0.5;
+  border-radius: 0px;
+  padding: 0px 84px 17px 84px !important;
+}
+.health-img{
+  width: 631px;
+}
+.campus-health p.about-title{
+  margin:0px 30px 10px 0px;
+  width: 575px;
+}
+.purpose-righttxt p.about-title{
+  margin:0px 30px 10px 0px;
+ 
+}
+.hostel-dining-wrapper {
+  width: 100%;
+  height: 752px; 
+  background-color: #f6f8f9;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.smart-classrooms-wrapper {
+  width: 100%;
+  height: 752px; 
+  background-color:white;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.sports-leisure-wrapper {
+  width: 100%;
+  height: 752px;  
+  background-color: #f6f8f9;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+
+.purpose-leftimg.smart-class-img img {
+  width: 572px;
+  height: 586px;
+}
+.purpose-righimg.smart-class-img img {
+  width: 309px;
+  float: right;
+}
+
+.purpose-leftimg.smart-class-img {
+  display: inline;
+  float: left;
+  width: 50%;
+}
+.campus-infrastructure p{
+  margin-bottom: 10px;
+}
+
+/** End of Campus Infrastructure Activity Screen  **/
+
+/** Start of Campus library Activity Screen **/
+.library-wrapper{
+  padding: 65px 50px 50px;
+  overflow: hidden;
+
+}
+
+.library_description {
+  padding-left: 140px;
+  width: 942px;
+  padding-right: 100px;
+}
+
+/** End of Campus library Activity Screen **/
