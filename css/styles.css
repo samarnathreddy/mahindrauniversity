@@ -1670,6 +1670,9 @@ ul.institute,
   color: #1d2329;
   width: 415px;
 }
+.blog-wrapper .title strong {
+  font-weight: 500;
+}
 .blog-wrapper .subtitle_txt {
   width: 1010px;
 }
@@ -2116,6 +2119,9 @@ ul.institute,
   color: #6c7787;
   width: auto;
 }
+.MU-dept-overview-wrapper {
+  padding: 67px 0;
+}
 .MU-dept-overview-first-wrap h6 {
   opacity: 0.8;
   font-size: 15px;
@@ -2138,6 +2144,11 @@ ul.institute,
   color: #6c7787;
   padding-bottom: 20px;
   width: 590px;
+}
+.MU-dept-overview-second-wrap p a {
+  font-weight: 500;
+  color: #d03a40;
+  text-decoration: none;
 }
 /***************MU departments detail styles end***************/
 
@@ -2377,6 +2388,76 @@ ul.institute,
 }
 /***************MU Internships styles end***************/
 /***************End of MU-departments styles*************/
+
+/***************Start of Media screens styles*************/
+/***************Start of media-releases section styles*************/
+.media-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.media-wrapper .blogss {
+  padding-bottom: 60px;
+}
+.media-wrapper .title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+  width: 415px;
+}
+.media-wrapper .title strong {
+  font-weight: 500;
+}
+.media-wrapper .subtitle_txt {
+  width: 1010px;
+}
+.media-wrapper img {
+  border-radius: 10px;
+}
+.media-cards {
+  padding-bottom: 30px;
+}
+.media-cards .card {
+  width: 360px;
+  height: 480px;
+  padding: 19px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+}
+.media-cards .card-img-top {
+  width: 320px;
+  height: 187px;
+}
+.media-cards .card-body span img {
+  padding-right: 17px;
+}
+.media-cards a {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #d0313f;
+  float: right;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.pagination-wrapper {
+  padding: 50px 0;
+}
+.page-item {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.page-item.active .page-link {
+  background-color: #d0313f;
+  color: #ffffff;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+.page-link {
+  padding: 16px 21px;
+  color: #333333;
+}
+/***************End of media-releases section styles*************/
+/***************End of Media screens styles*************/
 
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
