@@ -2459,6 +2459,17 @@ ul.institute,
 /***************End of media-releases section styles*************/
 /***************End of Media screens styles*************/
 
+/***************Start of Academics screens styles*************/
+/***************start of academic-credit section styles*************/
+.credits-section .no-credits {
+  text-align: left;
+}
+.credits-section .credit-hr {
+  margin: 20px 0 30px 2px;
+}
+/***************End of Academics-credit section styles*************/
+/***************End of Academics screens styles*************/
+
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin-top: 40px;
