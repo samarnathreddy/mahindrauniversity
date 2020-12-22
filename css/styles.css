@@ -1769,275 +1769,6 @@ ul.institute,
 /***************End of blog detail section styles*************/
 /***************End of Blogs screens styles*************/
 
-/***************Start of Alumni screens  styles*************/
-.alumni_community_wrapper {
-  margin-top: 40px;
-}
-.alumni-wrapper {
-  padding: 0px 50px 50px;
-  overflow: hidden;
-}
-.upcoming_events_wrapper {
-  padding: 40px 50px 90px;
-  margin: 70px 0px 70px 0px;
-  overflow: hidden;
-  background-color: #f6f8f9;
-}
-.upcome-event-tile span:first-child {
-  font-size: 36px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.42;
-  letter-spacing: normal;
-  text-align: center;
-  color: #6c7787;
-}
-.upcome-event-tile span:last-child {
-  font-size: 36px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.42;
-  letter-spacing: normal;
-  text-align: center;
-  font-weight: 500;
-  color: #000000;
-}
-.alumni-img {
-  width: 1445px;
-  overflow: hidden;
-  margin: 30px 0px 30px;
-}
-
-.alumni_card_tilte img {
-  width: 365px;
-  height: 415px;
-}
-.alumni_card_tilte h1 {
-  margin: 20px 0px 22px 9px;
-  font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  color: #000000;
-}
-.alumni_events_tilte {
-  margin-right: 67px;
-  margin-bottom: 20px;
-  padding: 11px;
-  background-color: white;
-  border-radius: 10px;
-}
-.alumni_card_tilte p {
-  width: 285px;
-  margin: 22px 105px 0 9px;
-  font-family: Gotham;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.73;
-  letter-spacing: normal;
-  color: #6c7787;
-}
-.alumni_events_tilte h3 {
-  float: right;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: #d0313f;
-  border: 2px solid #d0313f;
-  border-radius: 5px;
-  padding: 5px 10px;
-}
-.alumni-community img {
-  width: 352px;
-  padding-left: 30px;
-}
-.alumni-community p {
-  width: 445px;
-  padding-top: 110px;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.73;
-  letter-spacing: normal;
-  color: #6c7787;
-}
-.alumni-community h1 {
-  margin-top: 36px;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.22;
-  letter-spacing: normal;
-  color: #6c7787;
-}
-
-.alumni_events_tilte img :first-child {
-  width: 320px;
-  height: 187px;
-  margin: 0 0 13px;
-}
-.alumni_events_tilte {
-  position: relative;
-}
-.alumni_events_tilte span {
-  position: absolute;
-  top: 28px;
-  left: 28px;
-  font-size: 16px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: #ffffff;
-  width: 116px;
-  height: 31px;
-  padding: 7px 35px 8px 34px;
-  border-radius: 3px;
-  background-color: #1d2329;
-}
-.alumni_events_tilte h1 {
-  margin: 13px 90px 7px 0px;
-  opacity: 0.5;
-  font-family: Gotham;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.14;
-  letter-spacing: normal;
-  color: #1d2329;
-}
-.alumni_events_tilte h2 {
-  width: 298px;
-  height: 56px;
-  margin: 7px 19px 12px 3px;
-  font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  color: #000000;
-}
-.alumni_events_tilte p {
-  width: 317px;
-  height: 66px;
-  margin: 12px 0 35px 3px;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.47;
-  letter-spacing: normal;
-  color: #6c7787;
-}
-.cal-img {
-  margin: 0px 10px 0px 4px;
-}
-
-/***************End of Alumni screens styles*************/
-
-<<<<<<< HEAD
-.alumni_council_wrapper {
-=======
-
-/***************Start  of Alumni Council screens styles*************/
-.alumni_council_wrapper{
->>>>>>> 62876daf03c4a05ab05dd59ab59ea16f90bd8156
-  margin-top: 15px;
-}
-.alumni-council p {
-  width: 445px;
-  padding-top: 30px;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.73;
-  letter-spacing: normal;
-  color: #6c7787;
-}
-
-.upcoming_council_events_wrapper {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  overflow: hidden;
-  background-color: #f6f8f9;
-}
-
-.alumni-council-img {
-  width: 1456px;
-  margin-top: 40px;
-}
-
-.coming-event img {
-  width: 616px;
-  margin-right: 30px;
-}
-.alumni_council_events_tilte img {
-  width: 312px;
-}
-.alumni_council_events_first_img {
-  margin-right: 30px;
-}
-.alumni_council_events_tilte.first h1 {
-  font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.05;
-  letter-spacing: normal;
-  color: #000000;
-  margin: 20px 0px 9px 9px;
-  width: 322px;
-}
-
-.alumni_council_events_tilte.first h2 {
-  margin: 20px 0px 9px 9px;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  color: #6c7787;
-  width: 285px;
-}
-.alumni_council_events_tilte h1 {
-  font-size: 20px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.05;
-  letter-spacing: normal;
-  color: #000000;
-  margin: 20px 0px 9px 9px;
-}
-
-.alumni_council_events_tilte h2 {
-  margin: 20px 0px 9px 9px;
-  font-size: 15px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  color: #6c7787;
-  width: 285px;
-<<<<<<< HEAD
-}
-
 /***************Start of MU-centers styles*************/
 /***************MU Centers styles start***************/
 .MU-center-wrapper {
@@ -2564,42 +2295,157 @@ ul.institute,
 }
 /***************MU departments labs styles end***************/
 /***************End of MU-departments styles*************/
-=======
-} 
 
-/***************End of Alumni Council screens styles*************/
-
-
-/**  Start of Campus Student Activity Screen    **/
-
-.campus_student_activity_wrapper{
+/***************Start of Alumni screens  styles*************/
+.alumni_community_wrapper {
+  margin-top: 40px;
+}
+.alumni-wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
-
 }
-.subtitle_txt span{
-  font-weight: 500px;
-  color: #000;
+.upcoming_events_wrapper {
+  padding: 40px 50px 90px;
+  margin: 70px 0px 70px 0px;
+  overflow: hidden;
+  background-color: #f6f8f9;
 }
-.student-activity-img{
+.upcome-event-tile span:first-child {
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c7787;
+}
+.upcome-event-tile span:last-child {
+  font-size: 36px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  font-weight: 500;
+  color: #000000;
+}
+.alumni-img {
   width: 1445px;
   overflow: hidden;
   margin: 30px 0px 30px;
-  box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
-}
-.campus_student_activity{
-  width: 358px;
-  height: 480px;
-  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
-  border: solid 2.4px #f5f5f5;
-  background-color: #ffffff; 
-  margin-bottom: 20px;
-  margin-right: 45px;
-  padding: 19px; 
-  border-radius: 10px;
 }
 
-.campus_student_activity h2{
+.alumni_card_tilte img {
+  width: 365px;
+  height: 415px;
+}
+.alumni_card_tilte h1 {
+  margin: 20px 0px 22px 9px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+}
+.alumni_events_tilte {
+  margin-right: 67px;
+  margin-bottom: 20px;
+  padding: 11px;
+  background-color: white;
+  border-radius: 10px;
+}
+.alumni_card_tilte p {
+  width: 285px;
+  margin: 22px 105px 0 9px;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.alumni_events_tilte h3 {
+  float: right;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #d0313f;
+  border: 2px solid #d0313f;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.alumni-community img {
+  width: 352px;
+  padding-left: 30px;
+}
+.alumni-community p {
+  width: 445px;
+  padding-top: 110px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.alumni-community h1 {
+  margin-top: 36px;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+
+.alumni_events_tilte img :first-child {
+  width: 320px;
+  height: 187px;
+  margin: 0 0 13px;
+}
+.alumni_events_tilte {
+  position: relative;
+}
+.alumni_events_tilte span {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 116px;
+  height: 31px;
+  padding: 7px 35px 8px 34px;
+  border-radius: 3px;
+  background-color: #1d2329;
+}
+.alumni_events_tilte h1 {
+  margin: 13px 90px 7px 0px;
+  opacity: 0.5;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #1d2329;
+}
+.alumni_events_tilte h2 {
   width: 298px;
   height: 56px;
   margin: 7px 19px 12px 3px;
@@ -2611,17 +2457,7 @@ ul.institute,
   letter-spacing: normal;
   color: #000000;
 }
-.campus_student_activity h3{
-  float: right;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.36;
-  letter-spacing: normal;
-  color: #d0313f;
-}
-.campus_student_activity p{
+.alumni_events_tilte p {
   width: 317px;
   height: 66px;
   margin: 12px 0 35px 3px;
@@ -2633,35 +2469,184 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
 }
-.campus_student_activity img :first-child{
-  width: 320px;
-}
-.campus_student_activity .learnmore{
- padding: 0px 15px;
-
+.cal-img {
+  margin: 0px 10px 0px 4px;
 }
 
-/**  END of Campus Student Activity Screen **/
+/***************End of Alumni screens styles*************/
+/***************Start  of Alumni Council screens styles*************/
+.alumni_council_wrapper {
+  margin-top: 15px;
+}
+.alumni-council p {
+  width: 445px;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  color: #6c7787;
+}
 
+.upcoming_council_events_wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  background-color: #f6f8f9;
+}
+
+.alumni-council-img {
+  width: 1456px;
+  margin-top: 40px;
+}
+
+.coming-event img {
+  width: 616px;
+  margin-right: 30px;
+}
+.alumni_council_events_tilte img {
+  width: 312px;
+}
+.alumni_council_events_first_img {
+  margin-right: 30px;
+}
+.alumni_council_events_tilte.first h1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 20px 0px 9px 9px;
+  width: 322px;
+}
+
+.alumni_council_events_tilte.first h2 {
+  margin: 20px 0px 9px 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+  width: 285px;
+}
+.alumni_council_events_tilte h1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 20px 0px 9px 9px;
+}
+
+.alumni_council_events_tilte h2 {
+  margin: 20px 0px 9px 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+  width: 285px;
+}
+/***************End of Alumni Council screens styles*************/
 
 /**  Start of Campus Student Activity Screen    **/
 
-.campus_student_club_wrapper{
+.campus_student_activity_wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
-
 }
-.subtitle_txt span{
+.subtitle_txt span {
   font-weight: 500px;
   color: #000;
 }
-.student-activity-img{
+.student-activity-img {
   width: 1445px;
   overflow: hidden;
   margin: 30px 0px 30px;
   box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
 }
-.campus_student_club{
+.campus_student_activity {
+  width: 358px;
+  height: 480px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  margin-right: 45px;
+  padding: 19px;
+  border-radius: 10px;
+}
+
+.campus_student_activity h2 {
+  width: 298px;
+  height: 56px;
+  margin: 7px 19px 12px 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+}
+.campus_student_activity h3 {
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #d0313f;
+}
+.campus_student_activity p {
+  width: 317px;
+  height: 66px;
+  margin: 12px 0 35px 3px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.campus_student_activity img :first-child {
+  width: 320px;
+}
+.campus_student_activity .learnmore {
+  padding: 0px 15px;
+}
+
+/**  END of Campus Student Activity Screen **/
+
+/**  Start of Campus Student Activity Screen    **/
+
+.campus_student_club_wrapper {
+  padding: 0px 50px 50px;
+  overflow: hidden;
+}
+.subtitle_txt span {
+  font-weight: 500px;
+  color: #000;
+}
+.student-activity-img {
+  width: 1445px;
+  overflow: hidden;
+  margin: 30px 0px 30px;
+  box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
+}
+.campus_student_club {
   width: 358px;
   min-height: 262px;
   margin-bottom: 20px;
@@ -2672,7 +2657,7 @@ ul.institute,
   border: solid 2.4px #f5f5f5;
   background-color: #ffffff;
 }
-.campus_student_club h1{
+.campus_student_club h1 {
   width: 298px;
   font-size: 20px;
   font-weight: 500;
@@ -2683,7 +2668,7 @@ ul.institute,
   color: #000000;
 }
 
-.campus_student_club h2{
+.campus_student_club h2 {
   width: 298px;
   margin: 7px 19px 12px 3px;
   font-size: 15px;
@@ -2694,7 +2679,7 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
 }
-.campus_student_club h3{
+.campus_student_club h3 {
   float: right;
   font-size: 14px;
   font-weight: normal;
@@ -2704,7 +2689,7 @@ ul.institute,
   letter-spacing: normal;
   color: #d0313f;
 }
-.campus_student_club p{
+.campus_student_club p {
   width: 317px;
   height: 66px;
   margin: 12px 0 35px 3px;
@@ -2716,14 +2701,11 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
 }
-.campus_student_club img :first-child{
+.campus_student_club img :first-child {
   width: 320px;
 }
-.campus_student_club .learnmore{
- padding: 0px 15px;
- 
-
+.campus_student_club .learnmore {
+  padding: 0px 15px;
 }
 
 /**  END of Campus Student Activity Screen **/
->>>>>>> 62876daf03c4a05ab05dd59ab59ea16f90bd8156
