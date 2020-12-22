@@ -1956,6 +1956,8 @@ margin: 0px 10px 0px 4px;
 
 /***************End of Alumni screens styles*************/
 
+
+/***************Start  of Alumni Council screens styles*************/
 .alumni_council_wrapper{
   margin-top: 15px;
 }
@@ -2043,3 +2045,163 @@ padding-bottom: 40px;
   color: #6c7787;
   width: 285px;
 } 
+
+/***************End of Alumni Council screens styles*************/
+
+
+/**  Start of Campus Student Activity Screen    **/
+
+.campus_student_activity_wrapper{
+  padding: 0px 50px 50px;
+  overflow: hidden;
+
+}
+.subtitle_txt span{
+  font-weight: 500px;
+  color: #000;
+}
+.student-activity-img{
+  width: 1445px;
+  overflow: hidden;
+  margin: 30px 0px 30px;
+  box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
+}
+.campus_student_activity{
+  width: 358px;
+  height: 480px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff; 
+  margin-bottom: 20px;
+  margin-right: 45px;
+  padding: 19px; 
+  border-radius: 10px;
+}
+
+.campus_student_activity h2{
+  width: 298px;
+  height: 56px;
+  margin: 7px 19px 12px 3px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+}
+.campus_student_activity h3{
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #d0313f;
+}
+.campus_student_activity p{
+  width: 317px;
+  height: 66px;
+  margin: 12px 0 35px 3px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.campus_student_activity img :first-child{
+  width: 320px;
+}
+.campus_student_activity .learnmore{
+ padding: 0px 15px;
+
+}
+
+/**  END of Campus Student Activity Screen **/
+
+
+/**  Start of Campus Student Activity Screen    **/
+
+.campus_student_club_wrapper{
+  padding: 0px 50px 50px;
+  overflow: hidden;
+
+}
+.subtitle_txt span{
+  font-weight: 500px;
+  color: #000;
+}
+.student-activity-img{
+  width: 1445px;
+  overflow: hidden;
+  margin: 30px 0px 30px;
+  box-shadow: 30px 10px 80px 0 rgba(0, 0, 0, 0.1);
+}
+.campus_student_club{
+  width: 358px;
+  min-height: 262px;
+  margin-bottom: 20px;
+  margin-right: 45px;
+  padding: 36px 19px 38px 22px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+.campus_student_club h1{
+  width: 298px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.campus_student_club h2{
+  width: 298px;
+  margin: 7px 19px 12px 3px;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.campus_student_club h3{
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #d0313f;
+}
+.campus_student_club p{
+  width: 317px;
+  height: 66px;
+  margin: 12px 0 35px 3px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.campus_student_club img :first-child{
+  width: 320px;
+}
+.campus_student_club .learnmore{
+ padding: 0px 15px;
+ 
+
+}
+
+/**  END of Campus Student Activity Screen **/
