@@ -2296,6 +2296,88 @@ ul.institute,
 /***************MU departments labs styles end***************/
 /***************End of MU-departments styles*************/
 
+/***************Start of MU-Internships styles*************/
+/***************MU Internships styles start***************/
+.intern-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.intern-wrapper > div {
+  padding-bottom: 60px;
+}
+.intern-wrapper .title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.42;
+  color: #000000;
+  width: 472px;
+}
+.intern-wrapper .title strong {
+  font-weight: 500;
+}
+.intern-wrapper .subtitle_txt {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  width: auto;
+}
+.institute-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+  margin-top: 67px;
+}
+.institute-wrapper > div {
+  background-color: #f6f8f9;
+  padding: 67px 0;
+}
+.indian-institute > div {
+  background-color: #ffffff !important;
+}
+.institute-wrapper h4 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1d2329;
+  text-align: center;
+}
+.institute-wrapper h4 strong {
+  font-weight: 500;
+}
+.institute-wrapper p {
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+  color: #6c7787;
+  padding-top: 10px;
+}
+.institute-wrapper hr {
+  margin: 20px auto 45px;
+}
+.institute-block {
+  padding: 0 60px;
+}
+.institute-block p {
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+  text-align: left;
+  font-weight: 300;
+}
+.institute-block b {
+  font-weight: 500;
+}
+.institute-block ul {
+  font-size: 15px;
+  line-height: 2.67;
+  color: #6c7787;
+  list-style-type: none;
+}
+.institute-block ul .tick-mark {
+  background: url(/images/tick.svg) no-repeat left center;
+  padding-left: 26px;
+}
+/***************MU Internships styles end***************/
+/***************End of MU-departments styles*************/
+
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin-top: 40px;
