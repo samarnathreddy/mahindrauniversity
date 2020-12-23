@@ -1660,6 +1660,7 @@ ul.institute,
   padding: 0 50px;
   overflow: hidden;
 }
+
 .blog-wrapper .blogss {
   padding-bottom: 60px;
 }
@@ -2995,3 +2996,36 @@ ul.institute,
 }
 
 /** End of Campus library Activity Screen **/
+
+/** Start of Campus Overview ctivity Screen **/
+.campus-overview-wrapper{
+  padding:20px 50px;
+  overflow: hidden;
+}
+.campus-overview-img :first-child{
+margin-right: 20px;
+}
+.campus-overview-img :last-child{
+ float: right;
+ margin:30px 20px 20px 0px;
+
+ }
+
+ .campus-overview-secd-img :first-child{
+  margin:90px 0px 20px 0px;
+  }
+
+  .subtitle_txt span{
+    font-weight: 600;
+    
+  }
+  .ordinance_subtitle span{
+    font-weight: 600;
+  }
+  .camp-overview p{
+    margin-bottom: 15px;
+
+  }
+  .camp-overview>span{
+    font-weight: 700;
+  }
