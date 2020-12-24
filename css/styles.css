@@ -2562,7 +2562,37 @@ ul.institute,
 .calender-inner-table {
   padding-top: 67px;
 }
-/***************End of Calender screens styles*************
+/***************End of Calender screens styles*************/
+
+/***************Start of placements screens styles*************/
+.recruit img {
+  padding: 0 0 20px 40px;
+}
+.recruit img:first-child {
+  padding-left: 0;
+}
+.recruit-img img {
+  width: 255px;
+  height: 126px;
+}
+/***************End of placements screens styles*************/
+
+/***************Start of Education screens styles*************/
+.loan-overview {
+  padding: 10px 0;
+}
+.loan-section {
+  margin-top: 67px;
+}
+.loan-section h4 {
+  width: 351px;
+}
+.loan-section a {
+  font-size: 14px;
+  color: #d0313f;
+  text-decoration: none;
+}
+/***************End of education screens styles*************/
 
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
