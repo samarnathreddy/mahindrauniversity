@@ -1470,7 +1470,8 @@ ul.institute,
 .table thead tr,
 .table tbody tr {
   border-radius: 5px;
-  border: solid 2.4px #f5f5f5;
+  border: solid 4px #f5f5f5;
+  height: 70px;
 }
 .table thead tr th {
   font-size: 15px;
@@ -1904,7 +1905,8 @@ ul.institute,
   color: #6c7787;
   width: auto;
 }
-.MU-gallery-search-wrapper {
+.MU-gallery-search-wrapper,
+.event-wrap {
   padding: 22px 45px;
   border-radius: 5px;
   box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
@@ -1914,6 +1916,14 @@ ul.institute,
 .MU-gallery-search-wrapper .form-group {
   margin-bottom: 0;
   padding-right: 40px;
+}
+.event-wrap form {
+  width: 100%;
+}
+.event-wrap .form-group {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
 }
 #myInput {
   background-image: url("/images/search.svg");
@@ -1927,7 +1937,7 @@ ul.institute,
   border-width: 0 0 2px;
   border-color: #d6d6d6;
 }
-.MU-gallery-search-wrapper .form-control {
+.MU-gallery-search-wrapper.event-wrap .form-control {
   height: 50px;
   border-width: 0 0 2px;
   border-color: #d6d6d6;
@@ -1936,6 +1946,9 @@ ul.institute,
   line-height: 2.14;
   color: #1d2329;
   width: 183px;
+}
+.event-wrap .form-control {
+  width: 25% !important;
 }
 .MU-gallery-search-wrapper .form-control:focus {
   border-width: 0 0 2px;
@@ -1972,6 +1985,15 @@ ul.institute,
 .MU-gallery-cards .card-img-top {
   /* width: 320px; */
   height: 187px;
+}
+.MU-gallery-cards .card-body span {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+}
+.MU-gallery-cards .card-body span img {
+  padding-right: 17px;
 }
 .MU-gallery-cards a {
   font-size: 14px;
@@ -2121,7 +2143,7 @@ ul.institute,
   width: auto;
 }
 .MU-dept-overview-wrapper {
-  padding: 67px 0;
+  padding: 0px 0 35px;
 }
 .MU-dept-overview-first-wrap h6 {
   opacity: 0.8;
@@ -2495,6 +2517,52 @@ ul.institute,
   border: solid 1px #979797;
 }
 /***************End of Scholarship & pay-fee screens styles*************/
+
+/***************Start of Events screens styles*************/
+.sort {
+  padding: 35px 0 0;
+}
+.sort .form-group {
+  padding-left: 18px;
+}
+.sort label {
+  width: 100px;
+}
+.sort .form-control {
+  height: 50px;
+  border-width: 0 0 2px;
+  border-color: #d6d6d6;
+  opacity: 0.49;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+}
+.event-title {
+  width: 360px !important;
+}
+.event-btn {
+  float: right;
+  margin-right: 130px;
+  margin-top: 33px;
+  border-radius: 3px;
+  border: solid 2px #d0313f;
+  font-weight: 500;
+  line-height: 1.25;
+}
+/***************End of Events screens styles*************/
+
+/***************Start of Calender screens styles*************/
+.calender .title {
+  width: 320px;
+}
+.calender-first-table .title,
+.calender-inner-table .title {
+  padding-bottom: 14px;
+}
+.calender-inner-table {
+  padding-top: 67px;
+}
+/***************End of Calender screens styles*************
 
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
@@ -2910,17 +2978,13 @@ ul.institute,
 
 /**  END of Campus Student Activity Screen **/
 
-
 /** Start of Campus Infrastructure Activity Screen **/
-.campus_infra_wrapper{
-
+.campus_infra_wrapper {
   padding: 0px 50px 50px;
   overflow: hidden;
-
-
 }
 
-.nav-pills.custom-link .nav-link{
+.nav-pills.custom-link .nav-link {
   font-size: 14px;
   line-height: 2.14;
   color: #1d2329;
@@ -2928,39 +2992,37 @@ ul.institute,
   border-radius: 0px;
   padding: 0px 84px 17px 84px !important;
 }
-.health-img{
+.health-img {
   width: 631px;
 }
-.campus-health p.about-title{
-  margin:0px 30px 10px 0px;
+.campus-health p.about-title {
+  margin: 0px 30px 10px 0px;
   width: 575px;
 }
-.purpose-righttxt p.about-title{
-  margin:0px 30px 10px 0px;
- 
+.purpose-righttxt p.about-title {
+  margin: 0px 30px 10px 0px;
 }
 .hostel-dining-wrapper {
   width: 100%;
-  height: 752px; 
+  height: 752px;
   background-color: #f6f8f9;
   padding-top: 90px;
   padding-bottom: 50px;
 }
 .smart-classrooms-wrapper {
   width: 100%;
-  height: 752px; 
-  background-color:white;
+  height: 752px;
+  background-color: white;
   padding-top: 90px;
   padding-bottom: 50px;
 }
 .sports-leisure-wrapper {
   width: 100%;
-  height: 752px;  
+  height: 752px;
   background-color: #f6f8f9;
   padding-top: 90px;
   padding-bottom: 50px;
 }
-
 
 .purpose-leftimg.smart-class-img img {
   width: 572px;
@@ -2976,17 +3038,16 @@ ul.institute,
   float: left;
   width: 50%;
 }
-.campus-infrastructure p{
+.campus-infrastructure p {
   margin-bottom: 10px;
 }
 
 /** End of Campus Infrastructure Activity Screen  **/
 
 /** Start of Campus library Activity Screen **/
-.library-wrapper{
+.library-wrapper {
   padding: 65px 50px 50px;
   overflow: hidden;
-
 }
 
 .library_description {
@@ -2998,34 +3059,31 @@ ul.institute,
 /** End of Campus library Activity Screen **/
 
 /** Start of Campus Overview ctivity Screen **/
-.campus-overview-wrapper{
-  padding:20px 50px;
+.campus-overview-wrapper {
+  padding: 20px 50px;
   overflow: hidden;
 }
-.campus-overview-img :first-child{
-margin-right: 20px;
+.campus-overview-img :first-child {
+  margin-right: 20px;
 }
-.campus-overview-img :last-child{
- float: right;
- margin:30px 20px 20px 0px;
+.campus-overview-img :last-child {
+  float: right;
+  margin: 30px 20px 20px 0px;
+}
 
- }
+.campus-overview-secd-img :first-child {
+  margin: 90px 0px 20px 0px;
+}
 
- .campus-overview-secd-img :first-child{
-  margin:90px 0px 20px 0px;
-  }
-
-  .subtitle_txt span{
-    font-weight: 600;
-    
-  }
-  .ordinance_subtitle span{
-    font-weight: 600;
-  }
-  .camp-overview p{
-    margin-bottom: 15px;
-
-  }
-  .camp-overview>span{
-    font-weight: 700;
-  }
+.subtitle_txt span {
+  font-weight: 600;
+}
+.ordinance_subtitle span {
+  font-weight: 600;
+}
+.camp-overview p {
+  margin-bottom: 15px;
+}
+.camp-overview > span {
+  font-weight: 700;
+}
