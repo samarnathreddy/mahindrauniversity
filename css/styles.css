@@ -3327,3 +3327,47 @@ ul.institute,
 }
 
 /** Research Advisory Council Screen END **/
+
+/** Research Programs Screen Start **/
+.research_program{
+  width: 1139px;
+  padding: 33px 36px 33px 40px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+
+.research_program h1{
+  margin: 0 0 9px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.research_program h2{
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+  padding: 5px 0px;
+}
+.research_program h2 span{
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.research_program h2 span.span-space{
+ padding-left: 40px;
+}
+/** Research Programs Screen END **/
