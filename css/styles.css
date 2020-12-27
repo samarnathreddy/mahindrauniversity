@@ -2774,11 +2774,39 @@ ul.institute,
 /***************End of Alumni screens styles*************/
 /***************Start  of Alumni Council screens styles*************/
 .alumni_council_wrapper {
-  margin-top: 15px;
+  margin:20px 0px 30px;
+}
+.council{
+  width: 357px;
+}
+
+.council h1{
+  opacity: 0.8;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.council h2{
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #1d2329
+}
+.council h3{
+
+  font-weight: 500;
+  
 }
 .alumni-council p {
-  width: 445px;
-  padding-top: 30px;
+  width: 602px;
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -2786,8 +2814,18 @@ ul.institute,
   line-height: 1.73;
   letter-spacing: normal;
   color: #6c7787;
+  padding-top: 25px;
 }
 
+.alumni-council p span{
+
+  font-weight: 500;
+
+  }
+
+  .up-event{
+    padding: 60px 0px;
+  }
 .upcoming_council_events_wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -2806,11 +2844,12 @@ ul.institute,
 }
 .alumni_council_events_tilte img {
   width: 312px;
+  padding-top: 50px;
 }
 .alumni_council_events_first_img {
   margin-right: 30px;
 }
-.alumni_council_events_tilte.first h1 {
+.alumni_council_events_tilte.coreteam h1 {
   font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
@@ -2822,7 +2861,7 @@ ul.institute,
   width: 322px;
 }
 
-.alumni_council_events_tilte.first h2 {
+.alumni_council_events_tilte.coreteam h2 {
   margin: 20px 0px 9px 9px;
   font-size: 15px;
   font-weight: normal;
@@ -2831,7 +2870,11 @@ ul.institute,
   line-height: 1.4;
   letter-spacing: normal;
   color: #6c7787;
-  width: 285px;
+  width: 312px;
+}
+.coreteam-name, .coreteam-about{
+  padding-left: 15px;
+
 }
 .alumni_council_events_tilte h1 {
   font-size: 20px;
@@ -2844,6 +2887,7 @@ ul.institute,
   margin: 20px 0px 9px 9px;
 }
 
+
 .alumni_council_events_tilte h2 {
   margin: 20px 0px 9px 9px;
   font-size: 15px;
@@ -2854,6 +2898,17 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
   width: 285px;
+}
+.upcome-event-sub-tile {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c7787;
+  width: 584px;
 }
 /***************End of Alumni Council screens styles*************/
 
@@ -3117,3 +3172,158 @@ ul.institute,
 .camp-overview > span {
   font-weight: 700;
 }
+
+/** Leadership Governing Body Screen Start **/
+
+
+.leader_gover_wrapper{
+  padding: 120px 0px 89px;
+}
+.leader_gover{
+  width: 357px;
+}
+
+.leader_gover h1{
+  opacity: 0.8;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.leader_gover h2{
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #1d2329
+}
+.leader_gover h3{
+
+  font-weight: 500;
+  
+}
+.leader_gover_council p {
+  width: 602px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  color: #6c7787;
+  padding-top: 25px;
+}
+
+.leader_gover_council p span{
+  font-weight: 500;
+  }
+
+.meet_team_wrapper {
+  background-color: #f6f8f9;
+  padding:30px 0px 70px;
+}
+
+.meet_team_event{
+  padding: 60px 0px 20px;
+}
+
+.teammeet img {
+  width: 312px;
+  padding-top: 10px;
+}
+.teammeet h1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 20px 0px 9px 9px;
+}
+
+
+.teammeet h2 {
+  margin: 20px 0px 9px 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+  width: 285px;
+}
+
+.teammeet img:first-child{
+  margin-right: 30px;
+
+}
+/** Leadership Governing Body Screen End **/
+
+/** Leadership Governing Body Screen Start **/
+.leader_team_wrapper{
+  background-color: #f6f8f9;
+  padding-bottom: 70px;
+}
+.meet_executive_board_wrapper{
+  background-color: #f6f8f9;
+  padding-bottom: 70px;
+}
+.meet_advisory_council_wrapper{
+  padding: 20px 0px 70px;
+}
+.meet_Academics_Deans_wrapper{
+  padding: 20px 0px 70px;
+}
+.meet_Academics_board_wrapper{
+  background-color: #f6f8f9;
+  padding-bottom: 70px;
+}
+
+/** Leadership Governing Body Screen END **/
+
+/** Research Advisory Council Screen Start **/
+
+.research_advisory_council img {
+  width: 367px;
+  padding-top: 20px;
+}
+.research_advisory_council_img{
+ padding: 0px 10px;
+}
+.research_advisory_council h1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 20px 0px 9px 9px;
+}
+
+
+.research_advisory_council h2 {
+  margin-left: 9px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #6c7787;
+  width: 285px;
+}
+
+.upcome-event-sub-tile span{
+  font-weight: bold;
+}
+
+/** Research Advisory Council Screen END **/
