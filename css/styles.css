@@ -1776,6 +1776,7 @@ ul.institute,
   font-size: 14px;
   line-height: 1.36;
   color: #d0313f;
+  text-decoration: none;
 }
 /***************End of blog detail section styles*************/
 /***************End of Blogs screens styles*************/
@@ -2217,6 +2218,9 @@ ul.institute,
 .specialisation-ppl {
   padding-bottom: 30px;
 }
+.specialisation-block {
+  padding-right: 30px;
+}
 .specialisation-block h5 {
   font-size: 18px;
   font-weight: 500;
@@ -2645,6 +2649,45 @@ ul.institute,
   font-size: 15px;
   line-height: 1.73;
   color: #6c7787;
+}
+.academy-faculty-wrapper h4 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.03;
+  color: #1d2329;
+  text-align: center;
+}
+.academy-faculty-wrapper .faculty-para {
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+  color: #6c7787;
+  padding-top: 20px;
+}
+.academy-faculty-wrapper .faculty-para b {
+  font-weight: 500;
+}
+.academy-faculty-wrapper hr {
+  margin: 20px auto 45px;
+}
+.academy-faculty-wrapper .specialisation-block img {
+  width: 360px;
+  height: 415px;
+}
+.academy-faculty-wrapper .specialisation-block h5 {
+  padding: 20px 0 4px;
+}
+.academy-faculty-wrapper .specialisation-block p {
+  width: 363px;
+}
+.faculty-view {
+  text-align: center;
+}
+.faculty-view a {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #d0313f;
+  text-decoration: none;
 }
 /***************End of academics screens  styles*************/
 
