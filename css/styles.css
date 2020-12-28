@@ -1288,8 +1288,14 @@ ul.institute,
   line-height: 1.31;
   color: #1d2329;
 }
-.AI-wrapper .title strong {
+.AI-wrapper .title strong,
+.AI-wrapper p strong {
   font-weight: 500;
+}
+.AI-wrapper p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
 }
 .AI-wrapper img {
   border-radius: 10px;
@@ -2595,6 +2601,7 @@ ul.institute,
 }
 /***************End of education screens styles*************/
 
+/***************Start of academics screens  styles*************/
 .academics-wrapper {
   padding: 0 50px;
   overflow: hidden;
@@ -2639,6 +2646,31 @@ ul.institute,
   line-height: 1.73;
   color: #6c7787;
 }
+/***************End of academics screens  styles*************/
+
+/***************Start of school procedure screens  styles*************/
+.fee-structure-wrapper {
+  margin-top: 60px;
+}
+.fee-structure-wrapper .structure-block ul h5 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.fee-structure-wrapper p {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.47;
+  color: #6c7787;
+  text-align: left;
+  padding: 0 100px;
+}
+.fee-structure-wrapper p span {
+  color: #d0313f;
+}
+/***************End of school procedure screens  styles*************/
+
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin-top: 40px;
