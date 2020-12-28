@@ -1922,8 +1922,8 @@ ul.institute,
 }
 .event-wrap .form-group {
   display: flex;
-  justify-content: space-between;
-  padding-right: 0;
+  /* justify-content: space-between;
+  padding-right: 0; */
 }
 #myInput {
   background-image: url("/images/search.svg");
@@ -1945,10 +1945,11 @@ ul.institute,
   font-size: 14px;
   line-height: 2.14;
   color: #1d2329;
-  width: 183px;
+  /* width: 183px; */
 }
 .event-wrap .form-control {
-  width: 25% !important;
+  /* width: 25% !important; */
+  margin-right: 50px;
 }
 .MU-gallery-search-wrapper .form-control:focus {
   border-width: 0 0 2px;
@@ -2594,6 +2595,50 @@ ul.institute,
 }
 /***************End of education screens styles*************/
 
+.academics-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.academics-wrapper .academy {
+  padding-bottom: 60px;
+}
+.academics-wrapper .title {
+  width: auto;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.31;
+  color: #1d2329;
+}
+.academics-wrapper .title strong,
+.academics-wrapper p b {
+  font-weight: 500;
+}
+.academics-wrapper p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.academy-wrap {
+  margin: 33px 0;
+}
+.academy-tabs ul {
+  margin-bottom: 70px !important;
+  margin-top: 0 !important;
+}
+.academy-first-wrap .title {
+  width: 340px;
+}
+.academy-second-wrap ul {
+  padding-left: 15px;
+  list-style-type: decimal;
+}
+.academy-second-wrap ul li {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.73;
+  color: #6c7787;
+}
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
   margin-top: 40px;
@@ -2774,13 +2819,13 @@ ul.institute,
 /***************End of Alumni screens styles*************/
 /***************Start  of Alumni Council screens styles*************/
 .alumni_council_wrapper {
-  margin:20px 0px 30px;
+  margin: 20px 0px 30px;
 }
-.council{
+.council {
   width: 357px;
 }
 
-.council h1{
+.council h1 {
   opacity: 0.8;
   font-family: Gotham;
   font-size: 15px;
@@ -2791,19 +2836,17 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
 }
-.council h2{
+.council h2 {
   font-size: 36px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.31;
   letter-spacing: normal;
-  color: #1d2329
+  color: #1d2329;
 }
-.council h3{
-
+.council h3 {
   font-weight: 500;
-  
 }
 .alumni-council p {
   width: 602px;
@@ -2817,15 +2860,13 @@ ul.institute,
   padding-top: 25px;
 }
 
-.alumni-council p span{
-
+.alumni-council p span {
   font-weight: 500;
+}
 
-  }
-
-  .up-event{
-    padding: 60px 0px;
-  }
+.up-event {
+  padding: 60px 0px;
+}
 .upcoming_council_events_wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -2872,9 +2913,9 @@ ul.institute,
   color: #6c7787;
   width: 312px;
 }
-.coreteam-name, .coreteam-about{
+.coreteam-name,
+.coreteam-about {
   padding-left: 15px;
-
 }
 .alumni_council_events_tilte h1 {
   font-size: 20px;
@@ -2886,7 +2927,6 @@ ul.institute,
   color: #000000;
   margin: 20px 0px 9px 9px;
 }
-
 
 .alumni_council_events_tilte h2 {
   margin: 20px 0px 9px 9px;
@@ -3175,15 +3215,14 @@ ul.institute,
 
 /** Leadership Governing Body Screen Start **/
 
-
-.leader_gover_wrapper{
+.leader_gover_wrapper {
   padding: 120px 0px 89px;
 }
-.leader_gover{
+.leader_gover {
   width: 357px;
 }
 
-.leader_gover h1{
+.leader_gover h1 {
   opacity: 0.8;
   font-family: Gotham;
   font-size: 15px;
@@ -3194,19 +3233,17 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
 }
-.leader_gover h2{
+.leader_gover h2 {
   font-size: 36px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.31;
   letter-spacing: normal;
-  color: #1d2329
+  color: #1d2329;
 }
-.leader_gover h3{
-
+.leader_gover h3 {
   font-weight: 500;
-  
 }
 .leader_gover_council p {
   width: 602px;
@@ -3220,16 +3257,16 @@ ul.institute,
   padding-top: 25px;
 }
 
-.leader_gover_council p span{
+.leader_gover_council p span {
   font-weight: 500;
-  }
+}
 
 .meet_team_wrapper {
   background-color: #f6f8f9;
-  padding:30px 0px 70px;
+  padding: 30px 0px 70px;
 }
 
-.meet_team_event{
+.meet_team_event {
   padding: 60px 0px 20px;
 }
 
@@ -3248,7 +3285,6 @@ ul.institute,
   margin: 20px 0px 9px 9px;
 }
 
-
 .teammeet h2 {
   margin: 20px 0px 9px 9px;
   font-size: 15px;
@@ -3261,28 +3297,27 @@ ul.institute,
   width: 285px;
 }
 
-.teammeet img:first-child{
+.teammeet img:first-child {
   margin-right: 30px;
-
 }
 /** Leadership Governing Body Screen End **/
 
 /** Leadership Governing Body Screen Start **/
-.leader_team_wrapper{
+.leader_team_wrapper {
   background-color: #f6f8f9;
   padding-bottom: 70px;
 }
-.meet_executive_board_wrapper{
+.meet_executive_board_wrapper {
   background-color: #f6f8f9;
   padding-bottom: 70px;
 }
-.meet_advisory_council_wrapper{
+.meet_advisory_council_wrapper {
   padding: 20px 0px 70px;
 }
-.meet_Academics_Deans_wrapper{
+.meet_Academics_Deans_wrapper {
   padding: 20px 0px 70px;
 }
-.meet_Academics_board_wrapper{
+.meet_Academics_board_wrapper {
   background-color: #f6f8f9;
   padding-bottom: 70px;
 }
@@ -3295,8 +3330,8 @@ ul.institute,
   width: 367px;
   padding-top: 20px;
 }
-.research_advisory_council_img{
- padding: 0px 10px;
+.research_advisory_council_img {
+  padding: 0px 10px;
 }
 .research_advisory_council h1 {
   font-size: 20px;
@@ -3308,7 +3343,6 @@ ul.institute,
   color: #000000;
   margin: 20px 0px 9px 9px;
 }
-
 
 .research_advisory_council h2 {
   margin-left: 9px;
@@ -3322,14 +3356,14 @@ ul.institute,
   width: 285px;
 }
 
-.upcome-event-sub-tile span{
+.upcome-event-sub-tile span {
   font-weight: bold;
 }
 
 /** Research Advisory Council Screen END **/
 
 /** Research Programs Screen Start **/
-.research_program{
+.research_program {
   width: 1139px;
   padding: 33px 36px 33px 40px;
   border-radius: 5px;
@@ -3338,7 +3372,7 @@ ul.institute,
   background-color: #ffffff;
 }
 
-.research_program h1{
+.research_program h1 {
   margin: 0 0 9px;
   font-size: 20px;
   font-weight: 500;
@@ -3348,7 +3382,7 @@ ul.institute,
   letter-spacing: normal;
   color: #000000;
 }
-.research_program h2{
+.research_program h2 {
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -3358,7 +3392,7 @@ ul.institute,
   color: #6c7787;
   padding: 5px 0px;
 }
-.research_program h2 span{
+.research_program h2 span {
   font-size: 15px;
   font-weight: 600;
   font-stretch: normal;
@@ -3367,7 +3401,7 @@ ul.institute,
   letter-spacing: normal;
   color: #6c7787;
 }
-.research_program h2 span.span-space{
- padding-left: 40px;
+.research_program h2 span.span-space {
+  padding-left: 40px;
 }
 /** Research Programs Screen END **/

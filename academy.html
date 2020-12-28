@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>Academy</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="./css/styles.css">
 
     <script src="./js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
     <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -294,110 +292,127 @@
             <nav aria-label="breadcrumb">
                <ol class="breadcrumb d-flex flex-wrap">
                  <li class="breadcrumb-item "><a href="#">Home</a></li>
-                 <li class="breadcrumb-item ">Gallery</li>
+                 <li class="breadcrumb-item "><a href="#">Academics</a></li>
+                 <li class="breadcrumb-item ">Mahindra University Academics</li>
                </ol>
              </nav>
         </div>
     </section>
     <!-- Breadcrumbs section ends -->
 
-    <!-- MU Centers section starts -->
-    <section class="MU-gallery-wrapper">
-        <div class="gallery-titles"> 
-            <h1 class="title">Mahindra University
-                <strong>Gallery</strong></h1>
+    <!-- Academy section starts -->
+    <section class="academics-wrapper">
+        <div class="academy"> 
+            <h1 class="title">About </h1>
+              <h1 class="title">  <strong> Mahindra University Academics</strong></h1>
             <hr>
-            <h1 class="subtitle_txt">
-                MEC, an Engineering college with the best of infrastructure, provides creative learning spaces that 
-                are required to develop well-rounded engineers.
-            </h1>
+            <p>
+                MEC is considered to be among the top <b>engineering colleges in Hyderabad</b> and even in India, as it grooms the New Engineers of the future. MEC follows a paradigm that transcends 
+                the conventional walls between academia-industry and theory-practice to usher in fresh ideas and deeper understanding
+            </p>
         </div>
-        <div class="MU-departments-search-wrapper d-flex w-100">
+        <img src="./images/video17.png" alt="video" class="w-100">
+        <div class="MU-gallery-search-wrapper event-wrap academy-wrap d-flex w-100">
             <form>
                 <div class="form-group">
                     <select id="inputState" class="form-control">
-                      <option selected>All</option>
-                      <option>1</option>
+                        <option selected>School</option>
+                        <option>1</option>
+                    </select>
+                    <select id="inputState" class="form-control">
+                    <option selected>Department</option>
+                    <option>1</option>
                     </select>
                 </div>
             </form>
-            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Gallery" title="Type in a name">
             <button type="button" class="btn btn-danger">Search</button>
         </div>
-        <div class="MU-gallery-cards d-flex w-100">
-            <div class="card">
-                <img src="./images/gallery.png" class="card-img-top" alt="gallery">
-                <div class="card-body">
-                  <h5 class="card-title">Mahindra University launched</h5>
-                  <p class="card-text">The Mahindra Group launched Mahindra University (MU) Hyderabad, on July 24, 2020. Mahindra…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./images/gallery1.png" class="card-img-top" alt="gallery1">
-                <div class="card-body">
-                  <h5 class="card-title">Infrastructure & MU</h5>
-                  <p class="card-text">MEC, an Engineering college with the best of infrastructure, provides creative learning spaces that…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./images/gallery2.png" class="card-img-top" alt="gallery2">
-                <div class="card-body">
-                  <h5 class="card-title">Second Annual 
-                    Convocation 2019 </h5>
-                  <p class="card-text">The Second Annual Convocation 2019 of MEC for the passing out batch of 2015, took off to an exhilarating…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
-            </div>
+    </section>
+    <!-- Academy section ends -->
+
+    <!-- <tabs section starts -->
+    <section class="tabs-wrapper academy-tabs">
+        <div class="d-flex">
+            <ul class="nav nav-pills w-100">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#recognitation">Recognitation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#credits">Credits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#calendar">Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#regulations">Regulations</a>
+                </li>
+            </ul> 
         </div>
-        <div class="MU-gallery-cards d-flex w-100">
-            <div class="card">
-                <img src="./images/gallery3.png" class="card-img-top" alt="gallery3">
-                <div class="card-body">
-                  <h5 class="card-title">Oakridge International School @ MEC</h5>
-                  <p class="card-text">The Zenith Science Club of MEC hosted a Science Open Day on 15th November 2019. Students…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane tab1 active" id="overview">
+                <div class="MU-dept-overview-wrapper d-flex w-100">
+                    <div class="MU-dept-overview-first-wrap academy-first-wrap w-50">
+                        <h6>New Engineers of the future.</h6>
+                        <h1 class="title">Global standards 
+                                <strong> of excellence </strong>
+                        </h1>
+                        <hr>
+                    </div>
+                    <div class="MU-dept-overview-second-wrap academy-second-wrap w-50">
+                        <p>
+                            MEC is considered to be among the <b>top engineering colleges in Hyderabad</b> and even in India, as it grooms the New Engineers of the future. MEC follows a paradigm that transcends
+                            the conventional walls between academia-industry and theory-practice to usher in fresh ideas and deeper understanding
+                        </p>
+                        <p>
+                            MEC rubs shoulders with <b>global standards of excellence,</b>  housing laboratories that are equipped to effectuate ground-breaking inventions and innovations under the supervision of the 
+                            faculty who are highly accomplished and dedicated scholars in their respective fields with industry, research and academic experience
+                        </p>
+                        <p>
+                            MEC offers undergraduate courses in seven disciplines: <b>B.Tech in Artificial Intelligence (AI)*, Civil Engineering (CE), Computation & Mathematics (CM)*, Computer Science and Engineering (CSE), 
+                                Electronics & Computer Engineering (ECE)*, Electrical and Electronics Engineering (EEE) and Mechanical Engineering (ME)</b> 
+                        </p>
+                        <p>
+                           <b> *Subject to receiving government approval</b>
+                        </p>
+                        <p>
+                            The B.Tech curriculum is based on a <b>core programme in Basic Sciences (47 credits), Basic Engineering (28 credits), Humanities, Social and Creative Sciences (15 credits), Enterprise Sciences (10 credits)</b> 
+                        </p>
+                        <p>The curriculum aims at providing the students with:</p>
+                        <ul>
+                            <li>A basic knowledge of the scientific-technological-social-business environment they are going to work in as practitioners </li>
+                            <li>Methods and skills for developing analytical and critical thinking, experimental approaches, project management and communication</li>
+                        </ul>
+                    </div>
                 </div>
+                <img src="./images/academy.png" alt="academy" class="w-100">
             </div>
-            <div class="card">
-                <img src="./images/gallery4.png" class="card-img-top" alt="gallery4">
-                <div class="card-body">
-                  <h5 class="card-title">Inaugural Event - EIC </h5>
-                  <p class="card-text">Mahindra Ecole Centrale launched the Entrepreneurship & Innovation Cell, (EIC) on campus with an intent…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./images/gallery5.png" class="card-img-top" alt="gallery5">
-                <div class="card-body">
-                  <h5 class="card-title">‘École Tyohar’ @ MEC </h5>
-                  <p class="card-text">Mahindra École Centrale saw the first cultural event of 2019, 
-                    ‘École Tyohar’…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
-            </div>
+            
+            <div class="tab-pane fade" id="education">2</div>
+            <div class="tab-pane fade" id="experience">3</div>
+            <div class="tab-pane fade" id="publications">3</div>
+            <div class="tab-pane container fade" id="research">3</div>
         </div>
-        <div class="MU-gallery-cards d-flex w-100">
-            <div class="card">
-                <img src="./images/gallery6.png" class="card-img-top" alt="gallery6">
-                <div class="card-body">
-                  <h5 class="card-title">#HumFitTohIndiaFit @ MEC</h5>
-                  <p class="card-text">The college that exercises together, excels together” said by CP Gurnani, MD & CEO Tech Mahindra…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./images/gallery7.png" class="card-img-top" alt="gallery7">
-                <div class="card-body">
-                  <h5 class="card-title">First Annual Convocation 2018 </h5>
-                  <p class="card-text">The event witnessed enthusiastic participation by the final year students, parents, faculy…</p>
-                  <a href="#" >View more  <i class="arrow right more"></i></a>
-                </div>
+    </section>
+    <!-- <tabs section ends -->
+
+    <!-- loan & fee section starts -->
+    <section class="branch-section loan-section">
+        <div class="d-flex">
+            <img src="./images/academy-loan.png" alt="academy-loan-fee" class="w-50">
+            <div class="d-flex w-50 justify-content-center flex-column branch-block">
+                <h6>French Statutory bodies  </h6>
+                <h4>
+                    <strong>Recognition</strong></h4>
+                <hr>
+                <p>
+                    The B.Tech degree is awarded by Jawaharlal Nehru Technological University (JNTU)- Hyderabad for the four year engineering course. Proposals have been made to provide students the option 
+                    of continuing their education for the fifth year for which there would be recognition from French Statutory bodies.
+                </p>
             </div>
         </div>
     </section>
-    <!-- MU Centers section ends -->
+    <!-- loan & fee section ends -->
 
     <!-- Footer section starts  -->
     <footer>
