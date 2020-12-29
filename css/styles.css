@@ -1721,9 +1721,6 @@ ul.institute,
   text-decoration: none;
   padding-top: 30px;
 }
-.pagination-wrapper {
-  padding: 50px 0;
-}
 .page-item {
   margin-right: 10px;
   border-radius: 4px;
@@ -2742,6 +2739,257 @@ ul.institute,
   left: 5%;
 }
 /***************End of school screens  styles*************/
+
+/***************End of Career screen  styles*************/
+.career-wrapper {
+  padding: 0 50px;
+  overflow: hidden;
+}
+.career-wrapper .title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.42;
+  color: #6c7787;
+}
+.career-wrapper .title strong {
+  font-weight: 500;
+  color: #000000;
+}
+.career-wrapper p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  padding-bottom: 20px;
+}
+.career-wrapper p a {
+  font-weight: 500;
+  color: #d0313f;
+  text-decoration: none;
+}
+.career-search {
+  margin: 40px 0;
+}
+.sort-selection {
+  padding-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+}
+.sort-selection label {
+  width: 100px;
+  padding-left: 5px;
+}
+.sort-selection .form-control {
+  border-width: 0 0 2px;
+  border-color: #d6d6d6;
+  opacity: 0.49;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+}
+#career .card {
+  border: none;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+#career .card-header {
+  background-color: #ffffff;
+}
+#career .card-body {
+  padding: 20px;
+}
+#career .card-header h4,
+#career .card-body h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+#career .card-header ul,
+.career-exp,
+#career .card-body ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px 0;
+}
+#career .card-header ul li {
+  padding-right: 40px;
+}
+#career .card-header ul li span {
+  padding-left: 5px;
+}
+.career-exp p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  padding: 0 0 0 8px;
+}
+#career .card .card-header.collapsed:after {
+  content: "\002B";
+  color: #d0313f;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 5px;
+  top: 20px;
+  position: absolute;
+  right: 35px;
+}
+#career .card .card-header:after {
+  content: "\2212";
+  color: #d0313f;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 5px;
+  top: 20px;
+  position: absolute;
+  right: 35px;
+}
+#career .card .collapse.show {
+  line-height: 30px;
+}
+#career .card-body p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  padding: 10px 0;
+}
+#career .card-body ul {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+}
+#career .card-body p a {
+  font-weight: 500;
+  color: #d0313f;
+}
+.apply-now-btn {
+  float: right;
+  margin-bottom: 25px;
+  width: 175px;
+  height: 50px;
+}
+/***************End of Career screen  styles*************/
+
+/***************Start of Apply now screen  styles*************/
+.reg-user {
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+  padding: 60px 32px;
+  margin-right: 7px;
+}
+.new-user {
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+  padding: 60px 88px;
+}
+.reg-user h5,
+.new-user h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+.reg-user hr,
+.new-user hr {
+  margin: 20px auto 45px;
+}
+.reg-user .form-control,
+.new-user .form-control {
+  border-width: 0 0 2px;
+  border-color: #d6d6d6;
+  /* opacity: 0.49; */
+  font-size: 14px;
+  line-height: 2.14;
+  color: #1d2329;
+}
+.reg-user a,
+.reg-user span {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  text-decoration: none;
+  float: right;
+}
+.reg-user span a,
+.new-user h6 a {
+  font-weight: 500;
+  color: #d03a40;
+}
+.register-btn {
+  width: -webkit-fill-available;
+  height: 50px;
+  margin: 34px 0;
+  border-radius: 3px;
+  background-color: #d0313f;
+}
+.new-user h6,
+.new-user a {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  padding-top: 11px;
+  text-align: center;
+  text-decoration: none;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.apply-details-wrapper {
+  padding: 60px 50px 0;
+  overflow: hidden;
+}
+.apply-detail-sec {
+  width: 40%;
+  margin: 0 20px;
+}
+.apply-detail-sec h5 {
+  font-size: 15px;
+  line-height: 1.47;
+  font-weight: 500;
+  color: #6c7787;
+}
+.apply-detail-sec p {
+  font-size: 15px;
+  line-height: 1.47;
+  color: #6c7787;
+  padding: 20px 0;
+}
+.apply-info p {
+  padding: 0;
+}
+.apply-detail-sec span,
+.apply-contact-details h5 {
+  color: #000000;
+  font-size: 15px;
+  line-height: 1.47;
+  font-weight: 500;
+}
+.apply-contact-details {
+  width: 60%;
+  margin: 0 20px;
+}
+.apply-contact-details hr {
+  width: auto;
+  height: 1px;
+  opacity: 0.26;
+  border: solid 1px #979797;
+}
+.apply-contact-details ul {
+  list-style-type: none;
+}
+.contacts h5 {
+  width: 20%;
+}
+/***************End of Apply now screen  styles*************/
 
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
