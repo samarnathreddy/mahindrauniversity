@@ -306,13 +306,15 @@ hr {
   top: 70%;
   left: 20%;
 }
-.header-text h2 {
+.header-text h2,
+.school-header-text h2 {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.42;
   color: #ffffff;
 }
-.header-text h3 {
+.header-text h3,
+.school-header-text h3 {
   font-size: 16px;
   line-height: 1.19;
   color: #ffffff;
@@ -2632,6 +2634,9 @@ ul.institute,
 .academy-wrap {
   margin: 33px 0;
 }
+.academy-tabs {
+  padding-top: 60px;
+}
 .academy-tabs ul {
   margin-bottom: 70px !important;
   margin-top: 0 !important;
@@ -2691,7 +2696,7 @@ ul.institute,
 }
 /***************End of academics screens  styles*************/
 
-/***************Start of school procedure screens  styles*************/
+/***************Start of school screens  styles*************/
 .fee-structure-wrapper {
   margin-top: 60px;
 }
@@ -2712,7 +2717,31 @@ ul.institute,
 .fee-structure-wrapper p span {
   color: #d0313f;
 }
-/***************End of school procedure screens  styles*************/
+.school-wrap .title {
+  color: #6c7787;
+}
+.school-wrap .title strong {
+  color: #000000;
+}
+.school-img-block img {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.first-img img:last-child {
+  float: right;
+}
+.school-tech {
+  padding-top: 60px;
+}
+.school-image-wrapper {
+  position: relative;
+}
+.school-header-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+/***************End of school screens  styles*************/
 
 /***************Start of Alumni screens  styles*************/
 .alumni_community_wrapper {
