@@ -3371,3 +3371,69 @@ ul.institute,
  padding-left: 40px;
 }
 /** Research Programs Screen END **/
+
+.reseach-vision{
+  width: 164px;
+  height: 182px;
+  padding: 25px 11px ;
+  border-radius: 4px;
+  background-color: #f6f8f9;
+}
+.reseach-vision-img{
+ text-align: center;
+}
+.reseach-vision h2{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+  padding-top:10px;
+}
+.reseach-vision h3{
+   text-align: center;
+   width: 135px;
+   font-size: 15px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.47;
+   letter-spacing: normal;
+   color: #6c7787;
+  
+ }
+ .paper-vision{
+margin: 83px 0px 0px 15px;
+ }
+
+ .reseach-vision-para >p{
+   padding-bottom: 10px;
+ }
+.uplaod-research-doc{
+  width: 419px;
+  height: 136px;
+  margin-left:  155px;
+  padding: 55px 63px 54px;
+  border-radius: 4px;
+  border: solid 0 #777eff;
+  background-color: #f9f9f9;
+}
+.uplaod-research-doc span{
+  padding: 0px 10px;
+}
+.uplaod-research-doc-wrapper{
+  padding: 50px 51px;
+  overflow: hidden;
+}
+.research_area_wrapper{
+  background-color: #f6f8f9;
+ margin-top: 40px;
+
+}
+.research_area{
+  width: 1140px;
+  padding-bottom: 20px;
+}
