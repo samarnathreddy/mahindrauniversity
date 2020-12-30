@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Departments</title>
+    <title>Apply now</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- <link href="./css/font-awesome.min.css" rel="stylesheet"> -->  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />  
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 
     <script src="./js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -294,268 +292,192 @@
             <nav aria-label="breadcrumb">
                <ol class="breadcrumb d-flex flex-wrap">
                  <li class="breadcrumb-item "><a href="#">Home</a></li>
-                 <li class="breadcrumb-item "><a href="#">Academics</a></li>
-                 <li class="breadcrumb-item "><a href="#">Department</a></li>
-                 <li class="breadcrumb-item ">Department of Mechanical Engineering</li>
+                 <li class="breadcrumb-item ">Apply Now</li>
                </ol>
              </nav>
         </div>
     </section>
     <!-- Breadcrumbs section ends -->
 
-    <!-- Dept detail section starts -->
-    <section class="dept-detail-wrapper">
-        <div>
-            <h1 class="title">Department of
-               <strong> Mechanical Engineering</strong></h1>
+    <!-- apply now section starts -->
+    <section class="career-wrapper">
+        <div> 
+            <h1 class="title">Apply  
+                <strong>Now</strong></h1>
             <hr>
-            <h1 class="subtitle_txt">
-                Mechanical engineering has been a formidable discipline. It is an irrefutable fact that some of the most 
-                significant scientific contrivances of the modern world are results of this highly revered discipline
-                of Engineering. Despite being one of the oldest branches, it still holds social, cultural and financial importance.
-            </h1>
         </div>
-        <img src="./images/video7.png" class="w-100" alt="video">
-    </section>
-    <!-- Dept detail section ends -->
-
-   <!-- <tabs section starts -->
-    <section class="tabs-wrapper">
-        <div class="d-flex">
-            <ul class="nav nav-pills w-100">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#members">Members</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#laboratories">Laboratories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#mechanical-Workshop">Mechanical Workshop</a>
-                </li>
-            </ul> 
-        </div>
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div class="tab-pane tab1 active" id="overview">
-                <div class="MU-dept-overview-wrapper d-flex w-100">
-                    <div class="MU-dept-overview-first-wrap w-50">
-                        <h6>Overview</h6>
-                        <h1 class="title">Department of 
-                             <strong>Mechanical Engineering </strong>
-                        </h1>
-                        <hr>
+        <div class="d-flex w-100">
+            <form class="reg-user">
+                <h5>Registered Applicant? Sign in</h5>
+                <hr>    
+                <div class="form-group">
+                    <input type="text" class="form-control" id="emailAddress" placeholder="Email ID">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="pwd" placeholder="Password">
+                </div>
+                <a href="#">Forgot Password?</a>
+                <button type="button" class="btn btn-danger register-btn">Login</button>
+                <span>Have an OTP ? <a href="#">Click here</a></span>
+            </form>
+            <form class="new-user">
+                <h5>New Applicant? Register Now</h5>
+                <h6>Unable to register? <a href="#">Click here</a> for a solution.</h6>
+                <hr>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="name" class="form-control" id="firstname" placeholder="First Name">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="name" class="form-control" id="lastname" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="email" placeholder="Email ID">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="Mobile" placeholder="Mobile Number">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <select id="inputState" class="form-control">
+                      <option selected>State</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <select id="inputState" class="form-control">
+                      <option selected>How did you come to know about us?</option>
+                      <option>...</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <input type="name" class="form-control" id="firstname" placeholder="Enter Password">
                     </div>
-                    <div class="MU-dept-overview-second-wrap w-50">
-                        <p>
-                            Since its inception, mechanical engineering has been a formidable discipline. It is an irrefutable fact that some of the most significant scientific contrivances of the modern world are results of this highly revered discipline 
-                            of Engineering. Despite being one of the oldest branches, it still holds social, cultural and financial importance.
-                        </p>
-                        <p>
-                            Mechanical Engineering is not just another branch, it is a tradition. MEC’S meticulously crafted curriculum pays tribute to this tradition while paving the way to a future that is increasingly seeing a synergy of various disciplines while shaping and strengthening newer paradigms like Mechatronics
-                            and Robotics. This is one of the reasons why, MEC is appreciated for having the best Mechanical Engineering course.
-                        </p>
-                        <p>
-                            The mechanical engineering course is designed to impart hands on experience along with providing exposure to state of the art machinery in our high-tech labs
-                            featuring various projects with industry collaborations. This enables the students to maintain pace with the transitional needs of this dynamic industry.
-                            The core courses involve basic and advanced knowledge in fluid mechanics, thermodynamics and heat transfer, solid mechanics, materials engineering, manufacturing, energy systems, dynamics and control Computer Aided Design (CAD), Computer Integrated Manufacturing (CIM), etc., which account for 53 credits.
-                        </p>
-                        <p>
-                            For specialisation in the design of machines, engines, thermodynamic systems or advanced industrial engineering and management, five electives - accounting for 15 credits- can be opted from a plethora of professional or open courses.
-                        </p>
-                        <p>
-                            Three departmental projects accounting for 15 credits test and aid acquired knowledge with practical skills necessary for the industry.
-                        </p>
+                    <div class="form-group col-md-6">
+                      <input type="name" class="form-control" id="lastname" placeholder="Confirm Password">
                     </div>
                 </div>
-            </div>
-
-            <div class="tab-pane fade" id="education">2</div>
-            <div class="tab-pane fade" id="experience">3</div>
-            <div class="tab-pane fade" id="publications">3</div>
-            <div class="tab-pane container fade" id="research">3</div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="email" placeholder="Enter the contents of image">
+                </div>
+                <button type="submit" class="btn btn-danger register-btn">Sign Up</button>
+            </form>
         </div>
     </section>
-    <!-- tab section ends -->
+    <!-- apply now section ends -->
 
-    <!-- specialisation section starts -->
-    <section class="specialisation-wrapper">
-        <div>
-            <h4>Members with  <strong>specialization</strong> </h4>
-            <p>
-                MEC's faculty is a mix of accomplished 
-                Indian and <b>International academicians,</b> all <b>Ph.Ds,</b>  with a high degree of <b>emphasis</b> on research.
-            </p>
-            <hr>
-            <div class="d-flex justify-content-center specialisation-ppl">
-                <div class="specialisation-block">
-                    <img src="./images/dept1.png" alt="dept1">
-                    <h5>Dr. Deep Seth </h5>
-                    <p>Head of the Centre
-                        Automation and Robotics</p>
+    <!-- apply now details section starts -->
+    <section class="apply-details-wrapper">
+        <div class="d-flex w-100">
+            <div class="apply-detail-sec">
+                <h5>Announcement:</h5>
+                <p>
+                    Besides the four existing B.Tech programs (CE/CSE/EEE/ME), we are announcing the commencement of 3 new UG programs 
+                    of study (Artificial Intelligence - AI; Computation & Mathematics - CM; and Electronics & Computer Engineering - ECE).
+                <br/><br/>
+                    All Applicants would be intimated of the same once the same is confirmed.
+                </p>
+                <span>Have Questions?</span>
+                <h5>Contact Mahindra Ecole Centrale</h5>
+                <div class="apply-info d-flex pt-3 pb-3">
+                    <div class="pr-5">
+                        <img src="./images/emaiols.svg" alt="mail">
+                        <p>info@mechyd.ac.in  <br/>
+                            admissions@mechyd.ac.in</p>
+                    </div>
+                    <div>
+                        <img src="./images/phone.svg" alt="ph">
+                        <p>040-6713 5100</p>
+                    </div>
                 </div>
-                <div class="specialisation-block">
-                    <img src="./images/dept2.png" alt="dept2">
-                    <h5>Dr. Bharghava Rajaram </h5>
-                    <p>Member
-                        Embedded Systems
-                    </p>
-                </div>
-                <div class="specialisation-block">
-                    <img src="./images/dept3.png" alt="dept3">
-                    <h5>Dr. Mahipal Jetta </h5>
-                    <p>Member
-                        Image Processing</p>
+                <div class="apply-info">
+                    <img src="./images/whats.svg" alt="whatsapp">
+                    <p>+91-9618592999  <br/>
+                        +91-9100938473</p>
                 </div>
             </div>
-            <div class="d-flex justify-content-center specialisation-ppl">
-                <div class="specialisation-block">
-                    <img src="./images/dept4.png" alt="dept4">
-                    <h5>Dr. Achal Agarwal </h5>
-                    <p>Member
-                        Machine Intelligence</p>
-                </div>
-                <div class="specialisation-block">
-                    <img src="./images/dept5.png" alt="dept5">
-                    <h5>Dr. Gopinath GR  </h5>
-                    <p>Member
-                        Control Systems</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- specialisation section ends -->
-
-    <!-- laboratories section starts -->
-    <section class="lab-wrapper">
-        <div>
-            <h4><strong>Laboratories</strong> </h4>
-            <p>Automotive Systems and Internal Combustion Engines Laboratory</p>
-            <hr>
-            <div class="lab-structure-block">
-                <p>The department has 6 labs equipped with machinery that trains students in various aspects of the mechanical engineering course. Our experimental equipment helps in conducting fluid mechanics experiments, heat transfer 
-                    experiments, dynamics and vibration experiments, turbomachinery experiments and includes an air conditioner trainer rig.
-                </p>
-                <p>
-                    <b>Automotive Systems and Internal Combustion Engines Laboratory:</b>
-                </p>
-                <p>
-                    This facility houses automotive and IC engine related equipment, including a traditional auto-mobile and its Power Train. Cut sections help students learn by visualisation of a range of machines.
-                </p>
-                <div class="d-flex">
-                    <ul class="w-50">
-                        <li><h5>List of Equipment:</h5></li>
-                        <li class="tick-mark">Ready-to-drive 25 tonnes HCV</li>
-                        <li class="tick-mark">6 tonnes LCV chassis and engine aggregates</li>
-                        <li class="tick-mark">Aggregates: Power Train (Chassis, Engine, Transmission, Axles, Tyres) 
-                            with cut sections (and motorised for demo)</li>
-                        <li class="tick-mark">Other Aggregates such as Brakes, Cooling System, Steering, After 
-                                Systems etc., with cut sections</li>
-                    </ul>
-                    <ul class="w-50">
-                        <li><h5>Proposed Activities:</h5></li>
-                        <li class="tick-mark">4 or 6 cylinder SI (gasoline) engine with Dynamometer</li>
-                        <li class="tick-mark">4 or 6 cylinder CI (diesel) engine with Dynamometer</li>
-                        <li class="tick-mark">Single cylinder multi-fuel variable compression ratio research engine</li>
-                        <li class="tick-mark">Fuel Characterisation and Emissions Measurement Facilities</li>
+            <div class="apply-contact-details">
+                <h5>North Admissions Contact Details</h5>
+                <div class="d-flex pt-4 contacts">
+                    <h5>Akshay Sahni</h5>
+                    <ul>
+                        <li class="pb-3">
+                            <img src="./images/mobile.svg" alt="ph">
+                            <span class="pl-2">9810102541</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/emaiols.svg" alt="email">
+                            <span class="pl-2">akshay.sahni@mechyd.ac.in</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/loc.svg" alt="loc">
+                            <span class="pl-2">Delhi/NCR, Haryana, Punjab, Himachal Pradesh and Jammu & Kashmir</span>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <div class="accordion" id="dept">
-                <div class="card">
-                    <div class="card-header" id="depthead1">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept1"
-                         aria-expanded="true" aria-controls="dept1">List of Equipment</a>
-                    </div>
-                    <div id="dept1" class="collapse" aria-labelledby="depthead1" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
+                <hr>
+                <div class="d-flex contacts">
+                    <h5>Mahesh Chaturvedi</h5>
+                    <ul>
+                        <li class="pb-3">
+                            <img src="./images/mobile.svg" alt="ph">
+                            <span class="pl-2">9982163300</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/emaiols.svg" alt="email">
+                            <span class="pl-2">chaturvedi@mechyd.ac.in</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/loc.svg" alt="loc">
+                            <span class="pl-2">Rajasthan and Madhya Pradesh</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="depthead2">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept2"
-                         aria-expanded="true" aria-controls="dept2">Proposed Activities</a>
-                    </div>
-                    <div id="dept2" class="collapse" aria-labelledby="depthead2" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
+                <hr>
+                <div class="d-flex contacts">
+                    <h5>Ajay Mishra</h5>
+                    <ul>
+                        <li class="pb-3">
+                            <img src="./images/mobile.svg" alt="ph">
+                            <span class="pl-2">7705996324</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/emaiols.svg" alt="email">
+                            <span class="pl-2">mishra@mechyd.ac.in</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/loc.svg" alt="loc">
+                            <span class="pl-2">Uttar Pradesh and Uttaranchal</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="depthead3">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept3"
-                         aria-expanded="true" aria-controls="dept3">Application Areas</a>
-                    </div>
-                    <div id="dept3" class="collapse" aria-labelledby="depthead3" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
+                <hr>
+                <div class="d-flex contacts">
+                    <h5>Dibyendu Karmakar</h5>
+                    <ul>
+                        <li class="pb-3">
+                            <img src="./images/mobile.svg" alt="ph">
+                            <span class="pl-2">9874838333</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/emaiols.svg" alt="email">
+                            <span class="pl-2">karmakar@mechyd.ac.in</span>
+                        </li>
+                        <li class="pb-3">
+                            <img src="./images/loc.svg" alt="loc">
+                            <span class="pl-2">West Bengal & North East States, Chhattisgarh, Jharkhand , Odisha</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="depthead4">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept4"
-                         aria-expanded="true" aria-controls="dept4">Equipment</a>
-                    </div>
-                    <div id="dept4" class="collapse" aria-labelledby="depthead4" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="depthead5">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept5"
-                         aria-expanded="true" aria-controls="dept5">Initial Phase Projects</a>
-                    </div>
-                    <div id="dept5" class="collapse" aria-labelledby="depthead5" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="depthead6">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept6"
-                         aria-expanded="true" aria-controls="dept6">Future Projects</a>
-                    </div>
-                    <div id="dept6" class="collapse" aria-labelledby="depthead6" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="depthead7">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept7"
-                         aria-expanded="true" aria-controls="dept7">Fluidics and Heat Transfer Laboratory</a>
-                    </div>
-                    <div id="dept7" class="collapse" aria-labelledby="depthead7" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="depthead8">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept8"
-                         aria-expanded="true" aria-controls="dept8">Materials Testing Laboratory</a>
-                    </div>
-                    <div id="dept8" class="collapse" aria-labelledby="depthead8" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="depthead9">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept9"
-                         aria-expanded="true" aria-controls="dept9">Mechanical Workshop</a>
-                    </div>
-                    <div id="dept9" class="collapse" aria-labelledby="depthead9" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="depthead10">
-                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#dept10"
-                         aria-expanded="true" aria-controls="dept10">Basic Mechanical Engineering Lab</a>
-                    </div>
-                    <div id="dept10" class="collapse" aria-labelledby="depthead10" data-parent="#dept">
-                        <div class="card-body">A</div>
-                    </div>
-                </div>
+                <hr>
             </div>
         </div>
     </section>
-    <!-- laboratories section ends -->
-    
+    <!-- apply now details section ends -->
+
     <!-- Footer section starts  -->
     <footer>
         <div class="footer-section">
