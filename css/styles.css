@@ -3825,3 +3825,90 @@ margin: 83px 0px 0px 15px;
   padding-bottom: 20px;
 }
 /** Research vision end **/
+
+
+.resource-textbox{
+  background-image: url("/images/search.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 0px;
+  margin-bottom: 5px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #d6d6d6;
+}
+
+.mu-resource-img{
+  width: 92px;
+  height: 86px;
+  margin: 10px 21px 10px 0px;
+}
+
+.MU-gallery-cards .resource-card {
+  width: 360px;
+  margin: 0 20px;
+  padding: 35px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(189, 195, 200, 0.16);
+  border: solid 2.4px #f5f5f5;
+  background-color: #ffffff;
+}
+
+.info-new {
+  position: relative;
+}
+
+.info-news-description {
+  position: absolute;
+  top: 105px;
+  right: 48px;
+  font-size: 18px;
+  z-index: 9999;
+  background-position: right top;
+  width: 452px;
+  height: 155px;
+  /* margin: 102px 153px 37px 325px; */
+  padding: 23px 25px 20px 27px;
+  border-radius: 4px;
+  box-shadow: 0 1px 24px 0 rgba(162, 162, 162, 0.37);
+  background-color: #ffffff;
+}
+
+.info-news-description-title img{
+float: right;
+}
+.info-news-description-title a{
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #d0313f;
+
+  }
+.info-news-description-title h1{
+  margin: 3px 76px 0 19px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.info-news-description-title h2{
+  width: 313px; 
+  margin: 12px 0 9px 19px;
+font-size: 15px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.47;
+letter-spacing: normal;
+color: #6c7787;
+} 
