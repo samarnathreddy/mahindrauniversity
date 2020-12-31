@@ -3826,7 +3826,7 @@ margin: 83px 0px 0px 15px;
 }
 /** Research vision end **/
 
-
+/** Mu Resource  screen Start **/
 .resource-textbox{
   background-image: url("/images/search.svg");
   background-position: center right;
@@ -3912,3 +3912,5 @@ line-height: 1.47;
 letter-spacing: normal;
 color: #6c7787;
 } 
+
+/** Mu Resource  screen End **/
