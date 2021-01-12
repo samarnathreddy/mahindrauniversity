@@ -678,7 +678,7 @@ hr {
   position: relative;
 }
 .success-wrapper > div {
-  background-image: url("/images/rise.png");
+  background-image: url("../images/rise.png");
   background-repeat: no-repeat;
   padding: 85px 0;
   background-size: cover;
@@ -805,15 +805,13 @@ hr {
 
 /***************Start of Footer styles*************/
 footer {
-  padding: 0 50px;
   overflow: hidden;
 }
 .footer-section {
-  /* background-color: #000000; */
-  background-image: url("/images/bg.svg");
+  background-image: url("../images/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 55px;
+  padding: 0 50px;
 }
 .footer-social {
   padding-top: 109px;
@@ -935,7 +933,7 @@ footer hr,
 
 /************* Start of breadcrumbs styles ****************/
 .breadcrumbs-wrapper {
-  padding: 28px 50px 0;
+  padding: 28px 0 0;
 }
 .breadcrumb {
   /* padding: 0.75rem 1rem;
@@ -943,7 +941,7 @@ footer hr,
   list-style: none;
   background-color: #f8f8f8;
   border-radius: 0.25rem;
-  padding-left: 0px;
+  padding-left: 50px;
 }
 .breadcrumb-item,
 .breadcrumb-item a {
@@ -995,7 +993,7 @@ footer hr,
 /************** Start of Tabs section styles **********/
 ul.nav.nav-pills {
   border-bottom: 1px solid #dcd6d6;
-  margin: 70px 0;
+  margin: 0 0 50px;
 }
 .nav-pills .nav-link {
   font-size: 14px;
@@ -1003,7 +1001,7 @@ ul.nav.nav-pills {
   color: #1d2329;
   opacity: 0.5;
   border-radius: 0px;
-  padding: 0px 103px 17px 103px !important;
+  padding: 0px 40px 16px !important;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -1168,7 +1166,7 @@ ul.nav.nav-pills {
 /***************Start of faculty profile styles*************/
 /***************Start of profile details styles*************/
 .faculty-profile-wrapper {
-  padding: 0 50px;
+  padding: 50px 50px 0;
   overflow: hidden;
 }
 .profile-details-block {
@@ -1200,7 +1198,7 @@ ul.nav.nav-pills {
 
 /***************Start of tab description styles*************/
 .tabs-wrapper {
-  padding: 0 50px;
+  padding: 50px;
   overflow: hidden;
 }
 .tab-content > .tab1 {
@@ -1272,6 +1270,13 @@ ul.institute,
 .faculty-publications ul li {
   padding-bottom: 25px;
 }
+.faculty-publications ul li a {
+  font-size: 14px;
+  line-height: 1.36;
+  color: #d0313f;
+  padding-left: 10px;
+  text-decoration: none;
+}
 /***************End of tab description styles*************/
 /***************End of faculty profile styles*************/
 
@@ -1303,7 +1308,7 @@ ul.institute,
   border-radius: 10px;
 }
 .AI-overview-wrapper {
-  padding-top: 60px;
+  padding: 50px 0 !important;
 }
 .AI-overview-first-wrap h6 {
   opacity: 0.8;
@@ -1399,7 +1404,6 @@ ul.institute,
 
 /***************Start of Btech program structure section styles*************/
 .program-structure-wrapper {
-  padding: 0 50px;
   overflow: hidden;
 }
 .program-structure-wrapper > div {
@@ -1445,7 +1449,7 @@ ul.institute,
   list-style-type: none;
 }
 .structure-block ul .tick-mark {
-  background: url(/images/tick.svg) no-repeat left center;
+  background: url("../images/tick.svg") no-repeat left center;
   padding-left: 26px;
 }
 /***************End of Btech program structure section styles*************/
@@ -1505,7 +1509,6 @@ ul.institute,
 
 /***************Start of branch change section styles*************/
 .branch-section {
-  padding: 0 50px;
   overflow: hidden;
 }
 .branch-section > div {
@@ -1534,17 +1537,19 @@ ul.institute,
   line-height: 1.47;
   color: #6c7787;
   padding-bottom: 20px;
+  width: 455px;
 }
 /***************End of branch change section styles*************/
 
 /***************Start of testimonial section styles*************/
 .testimonial-section {
-  padding: 0 50px;
   overflow: hidden;
 }
 .testimonial-section > div {
   padding: 67px 115px;
   background-color: #2f3437;
+  display: flex;
+  justify-content: center;
 }
 .testimonial-block {
   padding: 74px 110px;
@@ -1578,6 +1583,7 @@ ul.institute,
   line-height: 1.4;
   color: #454b52;
   padding-top: 14px;
+  width: 385px;
 }
 /***************End of testimonial section styles*************/
 
@@ -1677,14 +1683,15 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.31;
-  color: #1d2329;
+  color: #6c7787;
   width: 415px;
 }
 .blog-wrapper .title strong {
   font-weight: 500;
+  color: #000000;
 }
 .blog-wrapper .subtitle_txt {
-  width: 1010px;
+  width: 940px;
 }
 .blog-wrapper img {
   border-radius: 10px;
@@ -1794,7 +1801,11 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.31;
-  color: #1d2329;
+  color: #6c7787;
+}
+.MU-center-wrapper .title strong {
+  font-weight: 500;
+  color: #000000;
 }
 .MU-center-wrapper .subtitle_txt {
   font-size: 15px;
@@ -1851,11 +1862,10 @@ ul.institute,
 
 /***************MU Technology styles starts***************/
 .MU-tech-section {
-  padding: 0 50px;
   overflow: hidden;
 }
 .MU-tech-section > div {
-  padding: 67px 0px;
+  padding: 67px 50px;
   background-color: #f6f8f9;
 }
 .MU-tech-cards {
@@ -1903,13 +1913,16 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.31;
-  color: #1d2329;
+  color: #6c7787;
+}
+.MU-gallery-wrapper .title strong {
+  font-weight: 500;
+  color: #000000;
 }
 .MU-gallery-wrapper .subtitle_txt {
   font-size: 15px;
   line-height: 1.47;
   color: #6c7787;
-  width: auto;
 }
 .MU-gallery-search-wrapper,
 .event-wrap {
@@ -1932,7 +1945,7 @@ ul.institute,
   padding-right: 0; */
 }
 #myInput {
-  background-image: url("/images/search.svg");
+  background-image: url("../images/search.svg");
   background-position: center right;
   background-repeat: no-repeat;
   width: 100%;
@@ -1975,7 +1988,7 @@ ul.institute,
   border-color: green
 } */
 .MU-gallery-cards {
-  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .MU-gallery-cards .card {
   width: 360px;
@@ -2027,14 +2040,18 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.31;
-  color: #1d2329;
+  color: #6c7787;
+}
+.MU-departments-wrapper .title strong {
+  font-weight: 500;
+  color: #000000;
 }
 .MU-departments-wrapper .subtitle_txt,
 .MU-departments-wrapper span {
   font-size: 15px;
   line-height: 1.47;
   color: #6c7787;
-  width: auto;
+  width: 851px;
   font-weight: 400;
 }
 .departments-titles h5 {
@@ -2057,7 +2074,7 @@ ul.institute,
   padding-right: 40px;
 }
 #myInput {
-  background-image: url("/images/search.svg");
+  background-image: url("../images/search.svg");
   background-position: center right;
   background-repeat: no-repeat;
   width: 100%;
@@ -2137,20 +2154,18 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.42;
-  color: #000000;
+  color: #6c7787;
   width: 472px;
 }
 .dept-detail-wrapper .title strong {
   font-weight: 500;
+  color: #000000;
 }
 .dept-detail-wrapper .subtitle_txt {
   font-size: 15px;
   line-height: 1.47;
   color: #6c7787;
-  width: auto;
-}
-.MU-dept-overview-wrapper {
-  padding: 0px 0 35px;
+  width: 950px;
 }
 .MU-dept-overview-first-wrap h6 {
   opacity: 0.8;
@@ -2184,7 +2199,6 @@ ul.institute,
 
 /***************MU departments specialisation styles starts***************/
 .specialisation-wrapper {
-  padding: 0 50px;
   overflow: hidden;
 }
 .specialisation-wrapper > div {
@@ -2232,7 +2246,9 @@ ul.institute,
   line-height: 1.4;
   color: #6c7787;
   text-align: left;
+  padding-top: 0;
 }
+
 /***************MU departments specialisation styles end***************/
 
 /***************MU departments labs styles starts***************/
@@ -2285,7 +2301,7 @@ ul.institute,
   padding: 0 20px 0 0;
 }
 .lab-structure-block ul .tick-mark {
-  background: url(/images/tick.svg) no-repeat left center;
+  background: url("../images/tick.svg") no-repeat left center;
   padding-left: 26px;
 }
 .lab-structure-block ul li h5 {
@@ -2296,7 +2312,7 @@ ul.institute,
   padding-bottom: 10px;
 }
 #dept {
-  padding: 60px 0px;
+  padding: 60px 0px 0;
 }
 #dept .card {
   margin-bottom: 10px;
@@ -2353,22 +2369,21 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.42;
-  color: #000000;
+  color: #6c7787;
   width: 472px;
 }
 .intern-wrapper .title strong {
   font-weight: 500;
+  color: #000000;
 }
 .intern-wrapper .subtitle_txt {
   font-size: 15px;
   line-height: 1.47;
   color: #6c7787;
-  width: auto;
+  width: 960px;
 }
 .institute-wrapper {
-  padding: 0 50px;
   overflow: hidden;
-  margin-top: 67px;
 }
 .institute-wrapper > div {
   background-color: #f6f8f9;
@@ -2414,9 +2429,10 @@ ul.institute,
   line-height: 2.67;
   color: #6c7787;
   list-style-type: none;
+  width: 33%;
 }
 .institute-block ul .tick-mark {
-  background: url(/images/tick.svg) no-repeat left center;
+  background: url("../images/tick.svg") no-repeat left center;
   padding-left: 26px;
 }
 /***************MU Internships styles end***************/
@@ -2435,11 +2451,12 @@ ul.institute,
   font-size: 36px;
   font-weight: 300;
   line-height: 1.31;
-  color: #1d2329;
+  color: #6c7787;
   width: 415px;
 }
 .media-wrapper .title strong {
   font-weight: 500;
+  color: #000000;
 }
 .media-wrapper .subtitle_txt {
   width: 1010px;
@@ -2474,7 +2491,7 @@ ul.institute,
   padding-top: 30px;
 }
 .pagination-wrapper {
-  padding: 50px 0;
+  padding: 50px 0 0;
 }
 .page-item {
   margin-right: 10px;
@@ -2493,6 +2510,18 @@ ul.institute,
 /***************End of Media screens styles*************/
 
 /***************start of academic-credit section styles*************/
+.credit-wrap .title,
+.higher .title {
+  color: #6c7787 !important;
+}
+.credit-wrap strong,
+.higher strong {
+  font-weight: 500;
+  color: #000000;
+}
+.higher-fac {
+  width: 840px;
+}
 .credits-section .no-credits {
   text-align: left;
 }
@@ -2507,7 +2536,7 @@ ul.institute,
   padding: 0;
 }
 .scholar ul .tick-mark {
-  background: url(/images/tick.svg) no-repeat left top;
+  background: url("../images/tick.svg") no-repeat left top;
   padding-left: 26px;
 }
 .scholar a {
@@ -2684,6 +2713,7 @@ ul.institute,
 }
 .faculty-view {
   text-align: center;
+  padding: 50px 0;
 }
 .faculty-view a {
   font-size: 14px;
@@ -2694,9 +2724,9 @@ ul.institute,
 /***************End of academics screens  styles*************/
 
 /***************Start of school screens  styles*************/
-.fee-structure-wrapper {
+/* .fee-structure-wrapper {
   margin-top: 60px;
-}
+} */
 .fee-structure-wrapper .structure-block ul h5 {
   font-size: 15px;
   font-weight: 500;
@@ -2713,6 +2743,10 @@ ul.institute,
 }
 .fee-structure-wrapper p span {
   color: #d0313f;
+}
+.phd-para {
+  padding-left: 10px;
+  text-align: left !important;
 }
 .school-wrap .title {
   color: #6c7787;
@@ -3759,17 +3793,17 @@ ul.institute,
 /** Research Programs Screen END **/
 
 /** Research vision start **/
-.reseach-vision{
+.reseach-vision {
   width: 164px;
   height: 182px;
-  padding: 25px 11px ;
+  padding: 25px 11px;
   border-radius: 4px;
   background-color: #f6f8f9;
 }
-.reseach-vision-img{
- text-align: center;
+.reseach-vision-img {
+  text-align: center;
 }
-.reseach-vision h2{
+.reseach-vision h2 {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -3778,57 +3812,55 @@ ul.institute,
   line-height: 1.4;
   letter-spacing: normal;
   color: #000000;
-  padding-top:10px;
+  padding-top: 10px;
 }
-.reseach-vision h3{
-   text-align: center;
-   width: 135px;
-   font-size: 15px;
-   font-weight: normal;
-   font-stretch: normal;
-   font-style: normal;
-   line-height: 1.47;
-   letter-spacing: normal;
-   color: #6c7787;
-  
- }
- .paper-vision{
-margin: 83px 0px 0px 15px;
- }
+.reseach-vision h3 {
+  text-align: center;
+  width: 135px;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
+.paper-vision {
+  margin: 83px 0px 0px 15px;
+}
 
- .reseach-vision-para >p{
-   padding-bottom: 10px;
- }
-.uplaod-research-doc{
+.reseach-vision-para > p {
+  padding-bottom: 10px;
+}
+.uplaod-research-doc {
   width: 419px;
   height: 136px;
-  margin-left:  155px;
+  margin-left: 155px;
   padding: 55px 63px 54px;
   border-radius: 4px;
   border: solid 0 #777eff;
   background-color: #f9f9f9;
 }
-.uplaod-research-doc span{
+.uplaod-research-doc span {
   padding: 0px 10px;
 }
-.uplaod-research-doc-wrapper{
+.uplaod-research-doc-wrapper {
   padding: 50px 51px;
   overflow: hidden;
 }
-.research_area_wrapper{
+.research_area_wrapper {
   background-color: #f6f8f9;
- margin-top: 40px;
-
+  margin-top: 40px;
 }
-.research_area{
+.research_area {
   width: 1140px;
   padding-bottom: 20px;
 }
 /** Research vision end **/
 
 /** Mu Resource  screen Start **/
-.resource-textbox{
-  background-image: url("/images/search.svg");
+.resource-textbox {
+  background-image: url("../images/search.svg");
   background-position: center right;
   background-repeat: no-repeat;
   width: 100%;
@@ -3840,7 +3872,7 @@ margin: 83px 0px 0px 15px;
   border-color: #d6d6d6;
 }
 
-.mu-resource-img{
+.mu-resource-img {
   width: 92px;
   height: 86px;
   margin: 10px 21px 10px 0px;
@@ -3876,10 +3908,10 @@ margin: 83px 0px 0px 15px;
   background-color: #ffffff;
 }
 
-.info-news-description-title img{
-float: right;
+.info-news-description-title img {
+  float: right;
 }
-.info-news-description-title a{
+.info-news-description-title a {
   float: right;
   font-size: 14px;
   font-weight: normal;
@@ -3888,9 +3920,8 @@ float: right;
   line-height: 1.36;
   letter-spacing: normal;
   color: #d0313f;
-
-  }
-.info-news-description-title h1{
+}
+.info-news-description-title h1 {
   margin: 3px 76px 0 19px;
   font-size: 20px;
   font-weight: 500;
@@ -3901,16 +3932,16 @@ float: right;
   color: #000000;
 }
 
-.info-news-description-title h2{
-  width: 313px; 
+.info-news-description-title h2 {
+  width: 313px;
   margin: 12px 0 9px 19px;
-font-size: 15px;
-font-weight: normal;
-font-stretch: normal;
-font-style: normal;
-line-height: 1.47;
-letter-spacing: normal;
-color: #6c7787;
-} 
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+}
 
 /** Mu Resource  screen End **/
