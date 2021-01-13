@@ -935,11 +935,8 @@ footer hr,
 
 /************* Start of breadcrumbs styles ****************/
 .breadcrumbs-wrapper {
-<<<<<<< HEAD
   padding: 0px 50px;
-=======
   padding: 28px 0 0;
->>>>>>> 1578b2c107c38bdab909c7243a1dede92bbf74a8
 }
 .breadcrumb {
   /* padding: 0.75rem 1rem;
@@ -3941,7 +3938,6 @@ ul.institute,
 .info-news-description-title h2 {
   width: 313px;
   margin: 12px 0 9px 19px;
-<<<<<<< HEAD
 font-size: 15px;
 font-weight: normal;
 font-stretch: normal;
@@ -3977,8 +3973,6 @@ color: #6c7787;
   width: 195px;
   margin: 7px 64px 0 0;
   font-family: Gotham;
-=======
->>>>>>> 1578b2c107c38bdab909c7243a1dede92bbf74a8
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -3986,7 +3980,6 @@ color: #6c7787;
   line-height: 1.47;
   letter-spacing: normal;
   color: #6c7787;
-<<<<<<< HEAD
 
 }
 
@@ -4078,8 +4071,6 @@ color: #6c7787;
 .custom-form-control{
   border-radius: inherit;
 }
-=======
-}
+
 
 /** Mu Resource  screen End **/
->>>>>>> 1578b2c107c38bdab909c7243a1dede92bbf74a8
