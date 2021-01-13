@@ -21,39 +21,41 @@ a {
 #navbar {
   position: relative;
 }
-.first-nav {
-  height: 34px;
-  background: #1e1e1e;
+.bg-light {
+  min-height: 34px;
+  background-color: white !important;
+ 
 }
-.first-nav-li {
+.first-nav{
+  padding: 0px 43px 0px 43px;
+}
+/* .first-nav-li {
   padding-left: 17px;
-}
+} */
 .first-nav-link {
   opacity: 0.8;
   font-size: 13px;
   font-weight: 400;
   line-height: 2.31;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 0;
 }
 .second-nav {
-  height: 68px;
-  background-color: #ffffff;
-  padding-top: 17px;
+  min-height: 68px;
+  padding: 20px 50px;
 }
 .second-nav img {
   height: 51px;
   width: 194px;
 }
-.second-nav ul {
-  padding-left: 80px;
-}
+
 .second-nav-link,
 .second-nav-search {
   font-size: 14px;
   line-height: 2.14;
   color: #1d2329;
-  padding: 7px 20px 7px 0 !important;
+  padding: 7px 11px 7px 11px !important;
+  
 }
 .second-nav-link:last-child {
   padding-right: 20px !important;
@@ -96,7 +98,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.25;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .second-nav-link:hover {
   color: #000000;
@@ -113,7 +115,7 @@ a {
   box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.07);
   border: solid 1px #dddddd;
   background-color: #ffffff;
-  top: 110px;
+  top: 98px;
   left: 0;
   right: 0;
 }
@@ -935,7 +937,7 @@ footer hr,
 
 /************* Start of breadcrumbs styles ****************/
 .breadcrumbs-wrapper {
-  padding: 28px 50px 0;
+  padding: 0px 50px;
 }
 .breadcrumb {
   /* padding: 0.75rem 1rem;
@@ -3914,3 +3916,126 @@ color: #6c7787;
 } 
 
 /** Mu Resource  screen End **/
+
+/** Mu Contact US   screen Start **/
+
+.custom-bg{
+  background-color: #f6f8f9;
+  padding-top: 50px;
+}
+.contact_query_title{
+  width: 259px;
+  margin: 0 0 7px;
+  padding-top: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+.contact_query_subtitle{
+  width: 195px;
+  margin: 7px 64px 0 0;
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #6c7787;
+
+}
+
+.custom-us{
+  padding-left: 27px;
+}
+
+.contact-us_wrapper{
+  padding: 50px;
+  overflow: hidden;
+  background-color: #f6f8f9;
+}
+.contact-us h1 {
+  width: 36%;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+
+.contact-us ul {
+list-style-type: none;
+width: 396px;
+font-family: Gotham;
+font-size: 15px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.67;
+letter-spacing: normal;
+color: #6c7787;
+}
+
+
+.contact-block{
+  margin-right:52px;
+}
+.contact-block hr {
+  width: auto;
+  height: 1px;
+  opacity: 0.26;
+  border: solid 1px #979797;
+}
+
+.custom-form-title h1{
+  margin: 21px 57px 8px 0;
+  opacity: 0.49;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #1d2329;
+}
+
+.custom-form-title h2{
+
+opacity: 0.8;
+
+font-size: 15px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.4;
+letter-spacing: normal;
+color: #6c7787;
+}  
+
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #d0313f;
+  background-color: #d0313f;
+}
+.contacusform{
+  width: 1140px;
+  height: 746px;
+
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.custom-form-control{
+  border-radius: inherit;
+}
